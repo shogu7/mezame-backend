@@ -34,6 +34,29 @@ router.put('/:id', auth, async (req, res) => {
   res.json({ ok:true });
 });
 
+router.put('/toggle-admin/:id', auth, async (req, res) => {
+  try {
+    const id = req.params.id;
+    console.log('Toggle admin for user ID:', id);
+    
+    const [rows] = await pool.query('SELECT * FROM user WHERE user_id = ?', [id]);
+    console.log('User found:', rows.length > 0 ? 'Yes' : 'No');
+    
+    if(!rows.length) return res.status(404).json({ok:false, message:'User not found'});
+
+    const currentAdmin = rows[0].is_admin;
+    console.log('Current admin status:', currentAdmin);
+    
+    await pool.query('UPDATE user SET is_admin = ? WHERE user_id = ?', [!currentAdmin, id]);
+    console.log('Updated to:', !currentAdmin);
+
+    res.json({ ok:true, is_admin: !currentAdmin });
+  } catch (error) {
+    console.error('Error in toggle-admin:', error);
+    res.status(500).json({ ok: false, message: error.message });
+  }
+});
+
 router.get('/me', auth, async (req, res) => {
   const user_id = req.user.user_id;
   const [rows] = await pool.query(
