@@ -33,13 +33,22 @@ router.post('/register', async (req, res) => {
 
 router.post('/login', async (req, res) => {
   try {
-    const { email, password } = req.body;
-    const [rows] = await pool.query('SELECT * FROM user WHERE email = ?', [email]);
-    if (!rows.length) return res.status(401).json({ ok:false, message:'User not found' });
+    const { identifier, password } = req.body;
+    const [rows] = await pool.query(
+      'SELECT user_id, username, password, is_admin FROM user WHERE email = ? OR username = ?',
+      [identifier, identifier]
+    ); // request to email and username
+    if (!rows.length) {
+        console.log("Username/email not found in the db"); // debug
+        return res.status(401).json({ ok:false, message:'User not found' });    
+    }   
 
     const user = rows[0];
     const match = await bcrypt.compare(password, user.password);
-    if (!match) return res.status(401).json({ ok:false, message:'Wrong password' });
+    if (!match) {
+        console.log("Wrong password access deny"); // debug
+        return res.status(401).json({ ok:false, message:'Wrong password'} );
+    }
 
     const token = jwt.sign(
       { user_id: user.user_id, username: user.username, is_admin: user.is_admin },

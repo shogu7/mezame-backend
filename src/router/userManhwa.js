@@ -48,7 +48,7 @@ router.get('/me', auth, async (req, res) => {
 
 router.get('/', async (req, res) => {
   try {
-    const [users] = await pool.query('SELECT user_id, username, email FROM user');
+    const [users] = await pool.query('SELECT user_id, username, email, is_admin, created_at FROM user'); // sendin back all info for admin panel
     res.json({ ok: true, users });
   } catch (err) {
     console.error(err);
