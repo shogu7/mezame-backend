@@ -21,7 +21,8 @@ router.delete('/user/:id', auth, async (req, res) => {
     if (result.affectedRows === 0) {
       return res.status(404).json({ ok: false, message: 'User not found' });
     }
-    res.json({ ok: true, message: 'User deleted' });
+    console.log("User : ", id, "has been deleted")
+    res.json({ ok: true, message: 'User deleted'});
   } catch (err) {
     console.error(err);
     res.status(500).json({ ok: false, error: err.message });
@@ -43,15 +44,25 @@ router.patch('/users/:id', auth, isAdmin, async (req, res) => {
 });
 
 router.put('/toggle-admin/:id', auth, async (req, res) => {
-  const id = req.params.id;
+  try {
+    const id = req.params.id;
+    
+    const [rows] = await pool.query('SELECT * FROM user WHERE user_id = ?', [id]);
+    console.log('User found:', rows.length > 0 ? 'Yes' : 'No');
+    
+    if(!rows.length) return res.status(404).json({ok:false, message:'User not found'});
 
-  const [rows] = await pool.query('SELECT * FROM user WHERE user_id = ?', [id]);
-  if (!rows.length) return res.status(404).json({ ok: false, message: 'User not found' });
+    const currentAdmin = rows[0].is_admin;
+    console.log('Current admin status:', currentAdmin);
+    
+    await pool.query('UPDATE user SET is_admin = ? WHERE user_id = ?', [!currentAdmin, id]);
+    console.log("User :", id, "has been updated to:", !currentAdmin);
 
-  const currentAdmin = rows[0].is_admin;
-  await pool.query('UPDATE user SET is_admin = ? WHERE user_id = ?', [!currentAdmin, id]);
-
-  res.json({ ok: true, is_admin: !currentAdmin });
+    res.json({ ok:true, is_admin: !currentAdmin });
+  } catch (error) {
+    console.error('Error in toggle-admin:', error);
+    res.status(500).json({ ok: false, message: error.message });
+  }
 });
 
 module.exports = router;
