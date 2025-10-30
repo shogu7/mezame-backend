@@ -10,3 +10,4 @@ build/
 .vscode/
 .idea/
 mezame_dump.sql
+uploadCovers.js
