@@ -11,3 +11,4 @@ build/
 .idea/
 mezame_dump.sql
 uploadCovers.js
+test.js

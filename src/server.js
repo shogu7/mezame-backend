@@ -33,12 +33,16 @@ try {
   const uploadRoutes = require('./router/cloudinary/upload');
   console.log('uploadRoutes loaded');
 
+  const userLibraryRoutes = require('./router/user/userLibrary');
+  console.log('userLibrary loaded');
+
 
   app.use('/api/auth', authRoutes);
   app.use('/api/manhwa', manhwaRoutes);
   app.use('/api/user-manhwa', userManhwaRoutes);
   app.use('/api/admin', admin);
   app.use('/api/upload', uploadRoutes);
+  app.use('/api/user/library', userLibraryRoutes);
 
   console.log('All routes mounted!');
 
