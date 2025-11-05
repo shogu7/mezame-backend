@@ -5,7 +5,9 @@
     "description": "Un chasseur qui devient plus fort...",
     "release_date": "2018-03-01",
     "total_chapters": 200,
-    "total_seasons": 4
+    "total_seasons": 4,
+    "author": "Chugong",
+    "genres": ["Action", "Dark Fantasy"]
   },
   {
     "title": "The Legendary Moonlight Sculptor",
@@ -13,6 +15,8 @@
     "description": "Un joueur qui sculpte dans un monde virtuel...",
     "release_date": "2016-01-01",
     "total_chapters": 200,
-    "total_seasons": 2
+    "total_seasons": 2,
+    "author": "Nam Heesung",
+    "genres": ["Isekai", "Fantasy", "Comédie", "Aventure"]
   }
 ]

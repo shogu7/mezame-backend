@@ -36,13 +36,17 @@ try {
   const userLibraryRoutes = require('./router/user/userLibrary');
   console.log('userLibrary loaded');
 
+  const userManhwaLibraryRoutes = require('./router/user/user_manhwa');
+  console.log('user_manhwa loaded');
 
+  console.log('UP routes...');
   app.use('/api/auth', authRoutes);
   app.use('/api/manhwa', manhwaRoutes);
   app.use('/api/user-manhwa', userManhwaRoutes);
   app.use('/api/admin', admin);
   app.use('/api/upload', uploadRoutes);
-  app.use('/api/user/library', userLibraryRoutes);
+  app.use('/api/user/lib', userLibraryRoutes); // for display unique manhwa in page
+  app.use('/api/user/library', userManhwaLibraryRoutes);
 
   console.log('All routes mounted!');
 

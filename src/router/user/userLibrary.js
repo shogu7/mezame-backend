@@ -36,26 +36,44 @@ router.get('/:manhwaId', async (req, res) => {
     const manhwaId = parseInt(req.params.manhwaId, 10);
     if (Number.isNaN(manhwaId)) return res.status(400).json({ ok: false, error: 'Invalid manhwa id' });
 
+    // On récupère à la fois le manhwa et la liaison user_manhwa
     const [rows] = await pool.query(
-      'SELECT personal_status, current_chapter, note FROM user_manhwa WHERE user_id = ? AND manhwa_id = ? LIMIT 1',
+      `SELECT m.manhwa_id, m.title, m.original_title, m.description, m.release_date, m.total_chapters,
+              m.total_seasons, m.cover_url, m.author, m.genres,
+              um.personal_status, um.current_chapter, um.note
+       FROM manhwa m
+       LEFT JOIN user_manhwa um ON um.manhwa_id = m.manhwa_id AND um.user_id = ?
+       WHERE m.manhwa_id = ? LIMIT 1`,
       [userId, manhwaId]
     );
 
-    if (rows.length === 0) return res.json({ ok: true, inLibrary: false });
+    if (rows.length === 0) return res.status(404).json({ ok: false, error: 'Manhwa not found' });
 
     const row = rows[0];
+
     return res.json({
       ok: true,
-      inLibrary: true,
+      id: row.manhwa_id,
+      title: row.title,
+      originalTitle: row.original_title,
+      description: row.description,
+      releaseDate: row.release_date,
+      totalChapters: row.total_chapters,
+      totalSeasons: row.total_seasons,
+      coverUrl: row.cover_url,
+      author: row.author,
+      genres: row.genres ? row.genres.split(',').map(g => g.trim()) : [],
+      inLibrary: !!row.personal_status,
       status: mapDbToFrontendStatus(row.personal_status),
       currentChapter: row.current_chapter ?? 0,
       rating: row.note ?? null
     });
   } catch (err) {
-    console.error('GET /api/user/library error', err);
+    console.error('GET /api/user/library/:manhwaId error', err);
     return res.status(500).json({ ok: false, error: err.message });
   }
 });
+
 
 router.post('/', async (req, res) => {
   try {
