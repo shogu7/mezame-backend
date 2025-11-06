@@ -10,22 +10,22 @@ function mapDbToFrontendStatus(dbStatus) {
   switch (dbStatus) {
     case 'Finished': return 'completed';
     case 'Dropped':  return 'dropped';
-    case 'Reading':  return 'reading';
-    case 'On Hold':  return 'on_hold';
-    case 'Planned':
+    case 'reading':  return 'reading';
+    case 'on_hold':  return 'on_hold';
+    case 'plan_to_read':
     default:         return 'plan_to_read';
   }
 }
 
 function mapFrontendToDbStatus(front) {
-  if (!front) return 'Planned';
+  if (!front) return 'plan_to_read';
   switch (front) {
-    case 'completed': return 'Finished';
-    case 'dropped': return 'Dropped';
-    case 'reading': return 'Reading';
-    case 'on_hold': return 'On Hold';
+    case 'completed': return 'completed';
+    case 'dropped': return 'dropped';
+    case 'reading': return 'reading';
+    case 'on_hold': return 'on_hold';
     case 'plan_to_read':
-    default: return 'Planned';
+    default: return 'plan_to_read';
   }
 }
 
