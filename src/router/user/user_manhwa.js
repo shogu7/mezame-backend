@@ -33,15 +33,6 @@ function getUserIdFromReq(req) {
   return req.user?.user_id ?? req.user?.userId ?? req.user?.id ?? null;
 }
 
-/**
- * GET /api/user/library
- * Query params:
- *  - page (default 1)
- *  - pageSize (default 50, max 200)
- *  - search (optional, searches title)
- *
- * Returns: { ok: true, total, page, pageSize, items: [...] }
- */
 router.get('/', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -52,12 +43,10 @@ router.get('/', async (req, res) => {
     const offset = (page - 1) * pageSize;
     const search = (req.query.search || '').trim();
 
-    // WHERE clause
     const baseWhere = search
       ? `WHERE (um.user_id IS NOT NULL OR uf.user_id IS NOT NULL) AND m.title LIKE ?`
       : `WHERE (um.user_id IS NOT NULL OR uf.user_id IS NOT NULL)`;
 
-    // SQL pour la liste des manhwa
     const sqlList = `
     SELECT
         m.manhwa_id AS id,
@@ -86,8 +75,6 @@ router.get('/', async (req, res) => {
     LIMIT ? OFFSET ?
     `;
 
-
-    // SQL pour compter le total
     const countSql = `
       SELECT COUNT(*) AS total FROM (
         SELECT m.manhwa_id
@@ -99,7 +86,6 @@ router.get('/', async (req, res) => {
       ) t
     `;
 
-    // Paramètres
     const listParams = [];
     const countParams = [];
 
@@ -149,7 +135,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Existing endpoint: get single manhwa status
 router.get('/:manhwaId', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -179,7 +164,6 @@ router.get('/:manhwaId', async (req, res) => {
   }
 });
 
-// Add or update library entry
 router.post('/', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -194,7 +178,6 @@ router.post('/', async (req, res) => {
     const currentSeason = req.body.current_season != null ? parseInt(req.body.current_season, 10) : 1;
     const note = req.body.rating != null && req.body.rating !== '' ? parseInt(req.body.rating, 10) : null;
 
-    // check existing
     const [existing] = await pool.query(
       'SELECT user_manhwa_id FROM user_manhwa WHERE user_id = ? AND manhwa_id = ? LIMIT 1',
       [userId, manhwaId]
@@ -228,7 +211,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-// DELETE library entry
 router.delete('/:manhwaId', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -247,7 +229,6 @@ router.delete('/:manhwaId', async (req, res) => {
   }
 });
 
-// Follow (idempotent)
 router.post('/follow', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -264,7 +245,6 @@ router.post('/follow', async (req, res) => {
   }
 });
 
-// Unfollow
 router.delete('/follow/:manhwaId', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);

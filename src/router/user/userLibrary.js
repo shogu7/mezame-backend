@@ -36,7 +36,6 @@ router.get('/:manhwaId', async (req, res) => {
     const manhwaId = parseInt(req.params.manhwaId, 10);
     if (Number.isNaN(manhwaId)) return res.status(400).json({ ok: false, error: 'Invalid manhwa id' });
 
-    // On récupère à la fois le manhwa et la liaison user_manhwa
     const [rows] = await pool.query(
       `SELECT m.manhwa_id, m.title, m.original_title, m.description, m.release_date, m.total_chapters,
               m.total_seasons, m.cover_url, m.author, m.genres,
@@ -88,7 +87,6 @@ router.post('/', async (req, res) => {
     const currentChapter = req.body.current_chapter != null ? parseInt(req.body.current_chapter, 10) : 0;
     const note = req.body.rating != null && req.body.rating !== '' ? parseInt(req.body.rating, 10) : null;
 
-    // check existing
     const [existing] = await pool.query(
       'SELECT user_manhwa_id FROM user_manhwa WHERE user_id = ? AND manhwa_id = ? LIMIT 1',
       [userId, manhwaId]
@@ -121,7 +119,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-// DELETE
 router.delete('/:manhwaId', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
