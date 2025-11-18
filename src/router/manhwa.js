@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const pool = require('../db'); 
 
-// GET /api/manhwa/latest - Récupère les derniers manhwa ajoutés
+// get lasted manhwa added
 router.get('/latest', async (req, res) => {
   console.log('🔍 /latest endpoint hit!');
   console.log('Query params:', req.query);
@@ -32,7 +32,7 @@ router.get('/latest', async (req, res) => {
   }
 });
 
-// GET /api/manhwa - Récupère tous les manhwa
+// get all the manhwa
 router.get('/', async (req, res) => {
   try {
     const [rows] = await pool.query('SELECT * FROM manhwa ORDER BY manhwa_id DESC LIMIT 100');
@@ -42,7 +42,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET /api/manhwa/:id - Récupère un manhwa par ID
+// get the manhwa with an id
 router.get('/:id', async (req, res) => {
   try {
     const [rows] = await pool.query('SELECT * FROM manhwa WHERE manhwa_id = ?', [req.params.id]);
@@ -55,7 +55,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// POST /api/manhwa - Crée un nouveau manhwa
+// create a new manhwa, mainly work with the ../script/loadManhwa.js using which using a static json to work 
 router.post('/', async (req, res) => {
   try {
     const { 
@@ -65,10 +65,9 @@ router.post('/', async (req, res) => {
       release_date, 
       total_chapters, 
       total_seasons,
-      cover_url  // ← Nouveau champ
+      cover_url
     } = req.body;
 
-    // Validation basique
     if (!title) {
       return res.status(400).json({ ok: false, error: 'Title is required' });
     }
@@ -91,7 +90,8 @@ router.post('/', async (req, res) => {
   }
 });
 
-// PUT /api/manhwa/:id - Met à jour un manhwa
+// put: update information of a manhwa mainly work with /script/uploadCover.js. 
+// Plan to integrate it in the front
 router.put('/:id', async (req, res) => {
   try {
     const { 
@@ -128,7 +128,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// DELETE /api/manhwa/:id - Supprime un manhwa
+// delete an manhwa in the database mainly work in the admin panel -> library
 router.delete('/:id', async (req, res) => {
   try {
     const [result] = await pool.query('DELETE FROM manhwa WHERE manhwa_id = ?', [req.params.id]);

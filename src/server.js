@@ -17,6 +17,7 @@ app.use(express.json());
 console.log('Importing routes...');
 
 try {
+  //#region: Setup all routes required
   const authRoutes = require('./router/auth');
   console.log('authRoutes loaded');
 
@@ -41,7 +42,9 @@ try {
 
   const userProfileRoutes = require('./router/user/userProfile');
   console.log('user_Profile loaded')
-
+  //#endregion
+  
+  //#region: use this router for all /api/manhwa routes
   console.log('UP routes...');
   app.use('/api/auth', authRoutes);
   app.use('/api/manhwa', manhwaRoutes);
@@ -53,12 +56,14 @@ try {
   app.use('/api/user/library', userManhwaLibraryRoutes);
 
   console.log('All routes mounted!');
-
+  //#endregion
 } catch (err) {
   console.error('Error loading routes:', err.message);
   process.exit(1);
 }
 
+
+//#region: debug display all the routes mounted
 if (app._router && app._router.stack) {
   app._router.stack.forEach((middleware) => {
     if (middleware.route) {
@@ -72,7 +77,7 @@ if (app._router && app._router.stack) {
     }
   });
 }
-
+//#endregion
 
 app.get('/api/test', (req, res) => {
   res.json({ ok: true, message: 'API works!' });

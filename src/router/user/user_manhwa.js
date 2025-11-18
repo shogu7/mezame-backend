@@ -7,6 +7,7 @@ router.use(auth);
 
 function mapDbToFrontendStatus(dbStatus) {
   if (!dbStatus) return 'plan_to_read';
+  // determine each status and statement to return that frontend will understand
   switch (dbStatus) {
     case 'Finished': return 'completed';
     case 'Dropped':  return 'dropped';
@@ -35,9 +36,12 @@ function getUserIdFromReq(req) {
 
 router.get('/', async (req, res) => {
   try {
+    // catch user token
     const userId = getUserIdFromReq(req);
+    // if no then return error
     if (!userId) return res.status(401).json({ ok: false, error: 'No user id in token' });
 
+    // initialize page, pageSize, offset, search part for display integration
     const page = Math.max(1, parseInt(req.query.page || '1', 10));
     const pageSize = Math.min(200, Math.max(1, parseInt(req.query.pageSize || '50', 10)));
     const offset = (page - 1) * pageSize;
@@ -106,6 +110,7 @@ router.get('/', async (req, res) => {
     const items = rows.map(r => {
       const inLibrary = r.user_manhwa_id != null;
       const currentChapter = r.current_chapter != null ? Number(r.current_chapter) : 0;
+      // return all the data parser as json
       return {
         id: r.id,
         title: r.title,
@@ -135,6 +140,8 @@ router.get('/', async (req, res) => {
   }
 });
 
+// get information of the user manhwa with an id
+// it will return : inlibrary, status, currentChapter, rating
 router.get('/:manhwaId', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -163,6 +170,7 @@ router.get('/:manhwaId', async (req, res) => {
     return res.status(500).json({ ok: false, error: err.message });
   }
 });
+
 
 router.post('/', async (req, res) => {
   try {
@@ -229,6 +237,10 @@ router.delete('/:manhwaId', async (req, res) => {
   }
 });
 
+//#region: Follow part
+// still workin on, idk if ill keep it
+// function : a follow statement, that will allow the user to follow a selected manhwa and it will be part of his library
+// dont really know if its really usefull, cause the user can just make a status to add the manhwa in library
 router.post('/follow', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);
@@ -260,5 +272,6 @@ router.delete('/follow/:manhwaId', async (req, res) => {
     return res.status(500).json({ ok: false, error: err.message });
   }
 });
+//#endregion
 
 module.exports = router;

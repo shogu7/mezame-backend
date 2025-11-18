@@ -3,10 +3,8 @@ const router = express.Router();
 const pool = require('../../db');
 const auth = require('../../middleware/auth'); 
 
-/**
- * GET /api/user/:userId
- * Get user profile information
- */
+
+// get user profile information
 router.get('/:userId', async (req, res) => {
   try {
     const identifier = req.params.userId;
@@ -45,10 +43,7 @@ router.get('/:userId', async (req, res) => {
   }
 });
 
-/**
- * GET /api/user/:userId/library
- * Get a specific user's manhwa library
- */
+// get a specific user's manhwa library
 router.get('/:userId/library', async (req, res) => {
   try {
     const identifier = req.params.userId;

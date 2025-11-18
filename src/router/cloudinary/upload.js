@@ -40,7 +40,7 @@ router.post('/cover', upload.single('cover'), async (req, res) => {
     bufferStream.push(req.file.buffer);
     bufferStream.push(null);
 
-    // Upload to Cloudinary
+    // Upload to Cloudinary a pic
     const uploadPromise = new Promise((resolve, reject) => {
       const uploadStream = cloudinary.uploader.upload_stream(
         {

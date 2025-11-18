@@ -43,6 +43,7 @@ router.patch('/users/:id', auth, isAdmin, async (req, res) => {
   }
 });
 
+// toggle admin an user
 router.put('/toggle-admin/:id', auth, async (req, res) => {
   try {
     const id = req.params.id;

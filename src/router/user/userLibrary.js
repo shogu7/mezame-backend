@@ -28,6 +28,7 @@ function getUserIdFromReq(req) {
   return req.user?.user_id ?? req.user?.userId ?? req.user?.id ?? null;
 }
 
+// return all information of a manhwa determine by the id
 router.get('/:manhwaId', async (req, res) => {
   try {
     const userId = getUserIdFromReq(req);

@@ -39,3 +39,5 @@ module.exports = (sequelize, DataTypes) => {
     timestamps: false
   });
 };
+
+// manhwa model in database

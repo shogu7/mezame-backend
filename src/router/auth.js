@@ -7,6 +7,8 @@ const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'dev_secret';
 
+
+// register the user, avoid dupe and invalid things 
 router.post('/register', async (req, res) => {
   console.log('Register request received:', req.body);
     try {
@@ -30,7 +32,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
-
+// login part, request to the db username and password 
 router.post('/login', async (req, res) => {
   try {
     const { identifier, password } = req.body;
