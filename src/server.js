@@ -42,6 +42,10 @@ try {
 
   const userProfileRoutes = require('./router/user/userProfile');
   console.log('user_Profile loaded')
+
+  const path = require('path');
+  console.log('path for avatar loaded')
+
   //#endregion
   
   //#region: use this router for all /api/manhwa routes
@@ -54,6 +58,7 @@ try {
   app.use('/api/user', userProfileRoutes);
   app.use('/api/user/lib', userLibraryRoutes);
   app.use('/api/user/library', userManhwaLibraryRoutes);
+  app.use('/uploads/avatars', express.static(path.join(__dirname, 'uploads/avatars')));
 
   console.log('All routes mounted!');
   //#endregion

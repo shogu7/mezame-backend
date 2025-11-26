@@ -12,3 +12,4 @@ build/
 mezame_dump.sql
 uploadCovers.js
 test.js
+uploads/
