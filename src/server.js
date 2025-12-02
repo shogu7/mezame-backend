@@ -3,8 +3,19 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+const allowedOrigins = [
+  'http://151.80.145.253:3000',
+  'http://mezame.cloud-ip.cc'
+];
+
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
   credentials: true,
@@ -18,8 +29,9 @@ console.log('Importing routes...');
 
 try {
   //#region: Setup all routes required
-  const authRoutes = require('./router/auth');
+  const authRoutes = require('./router/auth.js');
   console.log('authRoutes loaded');
+  // TODO: Find why i import that thing??? guh? muh? nuh?
 
   const manhwaRoutes = require('./router/manhwa');
   console.log('manhwaRoutes loaded');
@@ -47,7 +59,7 @@ try {
   console.log('path for avatar loaded')
 
   //#endregion
-  
+
   //#region: use this router for all /api/manhwa routes
   console.log('UP routes...');
   app.use('/api/auth', authRoutes);
