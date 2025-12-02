@@ -48,7 +48,7 @@ router.get('/me', auth, async (req, res) => {
     if (!rows.length) return res.status(404).json({ ok: false, error: 'User not found' });
 
     const user = rows[0];
-    
+
     // Parse pinnedManhwa safely
     let parsedPinnedManhwa = [];
     if (user.pinnedManhwa) {
@@ -62,7 +62,7 @@ router.get('/me', auth, async (req, res) => {
         parsedPinnedManhwa = user.pinnedManhwa;
       }
     }
-    
+
     res.json({
       ok: true,
       user: {
@@ -200,7 +200,7 @@ router.get('/:userId', async (req, res) => {
     if (!user || user.length === 0) return res.status(404).json({ ok: false, error: 'User not found' });
 
     const u = user[0];
-    
+
     // Parse pinnedManhwa safely
     let parsedPinnedManhwa = [];
     if (u.pinnedManhwa) {
@@ -214,7 +214,7 @@ router.get('/:userId', async (req, res) => {
         parsedPinnedManhwa = u.pinnedManhwa;
       }
     }
-    
+
     res.json({
       ok: true,
       user: {
@@ -286,15 +286,17 @@ router.get('/:userId/library', async (req, res) => {
     const [rows] = await pool.query(sqlList, listParams);
 
     const mapDbToFrontendStatus = (dbStatus) => {
-      switch (dbStatus) {
-        case 'Finished': return 'completed';
-        case 'Dropped': return 'dropped';
+      if (!dbStatus) return 'plan_to_read';
+      switch (dbStatus.toLowerCase()) {
+        case 'finished': return 'completed';
+        case 'dropped': return 'dropped';
         case 'reading': return 'reading';
         case 'on_hold': return 'on_hold';
         case 'completed': return 'completed';
         default: return 'plan_to_read';
       }
     };
+
 
     const items = rows.map(r => ({
       id: r.id,

@@ -5,7 +5,9 @@ const app = express();
 
 const allowedOrigins = [
   'http://151.80.145.253:3000',
-  'http://mezame.cloud-ip.cc'
+  'http://mezame.cloud-ip.cc',
+  'http://localhost:4000',
+  'http://localhost:3000'
 ];
 
 const corsOptions = {
@@ -110,6 +112,9 @@ app.use((req, res) => {
     method: req.method
   });
 });
+
+// console.log('DB_USER:', process.env.DB_USER);
+// console.log('DB_PASSWORD:', process.env.DB_PASSWORD);
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
