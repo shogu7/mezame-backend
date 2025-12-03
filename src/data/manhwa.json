@@ -1,288 +1,1857 @@
 [
-  {
-    "title": "Solo Leveling",
-    "original_title": "솔로 레벨링",
-    "description": "A weak hunter becomes the strongest through a mysterious system that levels him up.",
-    "release_date": "2018-03-01",
-    "total_chapters": 200,
-    "total_seasons": 4,
-    "cover_url": "https://example.com/covers/solo-leveling.jpg",
-    "author": "Chugong",
-    "genres": ["Action", "Dark Fantasy"]
-  },
-  {
-    "title": "The Legendary Moonlight Sculptor",
-    "original_title": "달빛조각사",
-    "description": "A player sculpts his way through a virtual world to change his fate and that of his family.",
-    "release_date": "2016-01-01",
-    "total_chapters": 200,
-    "total_seasons": 2,
-    "cover_url": "https://example.com/covers/legendary-moonlight-sculptor.jpg",
-    "author": "Nam Heesung",
-    "genres": ["Isekai", "Fantasy", "Comedy", "Adventure"]
-  },
-  {
-    "title": "Give Me the Legendary Item",
-    "original_title": "À moi l'item légendaire",
-    "description": "A quirky adventure about a protagonist obsessed with obtaining a single legendary item at any cost.",
-    "release_date": "2020-06-15",
-    "total_chapters": 75,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/give-me-the-legendary-item.jpg",
-    "author": "Y. Boucher",
-    "genres": ["Comedy", "Fantasy", "Isekai"]
-  },
-  {
-    "title": "Only Ending for the Villainess Is Death",
-    "original_title": null,
-    "description": "After remembering her previous life, the villainess tries to avoid the single ending written for her: death.",
-    "release_date": "2019-09-10",
-    "total_chapters": 120,
-    "total_seasons": 2,
-    "cover_url": "https://example.com/covers/only-ending-villainess.jpg",
-    "author": "S. Park",
-    "genres": ["Drama", "Romance", "Tragedy"]
-  },
-  {
-    "title": "The Villainess Lives Twice",
-    "original_title": "빌런은 두 번 산다",
-    "description": "Reborn as the villainess, she uses knowledge of the future to change her fate and those around her.",
-    "release_date": "2021-05-12",
-    "total_chapters": 48,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/villainess-lives-twice.jpg",
-    "author": "M. Kim",
-    "genres": ["Romance", "Drama", "Reincarnation"]
-  },
-  {
-    "title": "Return of the 8th Class Magician",
-    "original_title": "8급 마법사의 귀환",
-    "description": "A once-great magician returns to the world stronger than ever to exact his plan.",
-    "release_date": "2017-11-20",
-    "total_chapters": 150,
-    "total_seasons": 3,
-    "cover_url": "https://example.com/covers/return-8th-class-magician.jpg",
-    "author": "K. Hwang",
-    "genres": ["Fantasy", "Action", "Magic"]
-  },
-  {
-    "title": "The Baby Tyrant",
-    "original_title": "아기 폭군",
-    "description": "A lighthearted story about a child with an unexpectedly tyrannical personality and those who love him.",
-    "release_date": "2019-02-14",
-    "total_chapters": 60,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/baby-tyrant.jpg",
-    "author": "L. Tran",
-    "genres": ["Slice of Life", "Comedy", "Family"]
-  },
-  {
-    "title": "The Wicked Princess",
-    "original_title": "사악한 공주",
-    "description": "A princess labeled wicked fights political intrigue while hiding a kinder heart than people believe.",
-    "release_date": "2015-07-03",
-    "total_chapters": 92,
-    "total_seasons": 2,
-    "cover_url": "https://example.com/covers/wicked-princess.jpg",
-    "author": "H. Lee",
-    "genres": ["Romance", "Political", "Drama"]
-  },
-  {
-    "title": "Parallel Paradise",
-    "original_title": "패럴렐 파라다이스",
-    "description": "Transported to a strange world, the protagonist must adapt while uncovering dark secrets about the realm.",
-    "release_date": "2014-10-22",
-    "total_chapters": 140,
-    "total_seasons": 3,
-    "cover_url": "https://example.com/covers/parallel-paradise.jpg",
-    "author": "T. Nakamura",
-    "genres": ["Ecchi", "Fantasy", "Adventure"]
-  },
-  {
-    "title": "The Stellar Swordmaster",
-    "original_title": "성검의 주인",
-    "description": "A tale of swords and stars: a young warrior rises to master an ancient stellar blade.",
-    "release_date": "2022-01-05",
-    "total_chapters": 34,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/stellar-swordmaster.jpg",
-    "author": "R. Choi",
-    "genres": ["Action", "Adventure", "Fantasy"]
-  },
-  {
-    "title": "Blade of Midnight",
-    "original_title": "자정의 검",
-    "description": "An elite assassin navigates the city's criminal networks to dismantle a corporate syndicate that betrayed him.",
-    "release_date": "2021-08-10",
-    "total_chapters": 86,
-    "total_seasons": 2,
-    "cover_url": "https://example.com/covers/blade-of-midnight.jpg",
-    "author": "J. Park",
-    "genres": ["Action", "Thriller", "Crime"]
-  },
-  {
-    "title": "Iron Fist Academy",
-    "original_title": "아이언 피스트 아카데미",
-    "description": "Rookies train in a brutal martial arts academy where only the strongest survive and the stakes are life or death.",
-    "release_date": "2019-04-15",
-    "total_chapters": 120,
-    "total_seasons": 3,
-    "cover_url": "https://example.com/covers/iron-fist-academy.jpg",
-    "author": "K. Han",
-    "genres": ["Action", "Martial Arts", "Sports"]
-  },
-  {
-    "title": "Rogue Protocol",
-    "original_title": "로그 프로토콜",
-    "description": "A cyber-soldier with a corrupted implant goes rogue to expose a government AI controlling the city.",
-    "release_date": "2023-02-01",
-    "total_chapters": 40,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/rogue-protocol.jpg",
-    "author": "M. Seo",
-    "genres": ["Action", "Sci-Fi", "Cyberpunk"]
-  },
-  {
-    "title": "Warborn: Frontier",
-    "original_title": "전장의 후예",
-    "description": "Squads fight brutal skirmishes on contested frontiers while veterans clash over tactics and survival.",
-    "release_date": "2017-11-11",
-    "total_chapters": 210,
-    "total_seasons": 4,
-    "cover_url": "https://example.com/covers/warborn-frontier.jpg",
-    "author": "S. Kim",
-    "genres": ["Action", "Military", "Drama"]
-  },
-  {
-    "title": "Shadow Arsenal",
-    "original_title": "그림자 무기",
-    "description": "A weapons broker assembles a team of mercenaries to pull off impossible heists against fortified targets.",
-    "release_date": "2020-06-20",
-    "total_chapters": 68,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/shadow-arsenal.jpg",
-    "author": "D. Lee",
-    "genres": ["Action", "Crime", "Thriller"]
-  },
-  {
-    "title": "Steel Coliseum",
-    "original_title": "강철 콜리세움",
-    "description": "Combatants battle in a deadly arena where custom weapons and raw skill decide who climbs to the top.",
-    "release_date": "2018-09-05",
-    "total_chapters": 142,
-    "total_seasons": 3,
-    "cover_url": "https://example.com/covers/steel-coliseum.jpg",
-    "author": "H. Yoon",
-    "genres": ["Action", "Martial Arts", "Tournament"]
-  },
-  {
-    "title": "Last Bullet Protocol",
-    "original_title": "라스트 불릿 프로토콜",
-    "description": "In a shattered world, a lone operative races across hostile zones to stop a weaponized faction from rising.",
-    "release_date": "2022-01-18",
-    "total_chapters": 55,
-    "total_seasons": 1,
-    "cover_url": "https://example.com/covers/last-bullet-protocol.jpg",
-    "author": "A. Cho",
-    "genres": ["Action", "Post-Apocalyptic", "Thriller"]
-  },
-  {
-    "title": "Vanguard Rebellion",
-    "original_title": "선봉의 반란",
-    "description": "A disgraced commander leads an insurgent force to topple a corrupt regime on the brink of civil war.",
-    "release_date": "2016-03-30",
-    "total_chapters": 176,
-    "total_seasons": 3,
-    "cover_url": "https://example.com/covers/vanguard-rebellion.jpg",
-    "author": "L. Park",
-    "genres": ["Action", "Military", "Adventure"]
-  },
-  {
-    "title": "A Returner's Magic Should Be Special",
-    "original_title": "A Returner's Magic Should Be Special",
-    "description": "A magician returns to the past to prevent the world's destruction.",
-    "release_date": "2018-03-01",
-    "total_chapters": 150,
-    "total_seasons": 3,
-    "cover_url": "/covers/returner_magic.jpg",
-    "author": "Sun-Wook Jeon",
-    "genres": ["Action", "Fantasy", "Adventure"]
-  },
-  {
-    "title": "The Live",
-    "original_title": "The Live",
-    "description": "After surviving a catastrophe, a young man fights to save others.",
-    "release_date": "2020-05-01",
-    "total_chapters": 120,
-    "total_seasons": 2,
-    "cover_url": "/covers/the_live.jpg",
-    "author": "N/A",
-    "genres": ["Action", "Dark Fantasy", "Adventure"]
-  },
-  {
-    "title": "Return to the Legendary Realm",
-    "original_title": "Return to the Legendary Realm",
-    "description": "A hero returns to a mythical world to change humanity's fate.",
-    "release_date": "2019-07-15",
-    "total_chapters": 95,
-    "total_seasons": 1,
-    "cover_url": "/covers/return_legendary_realm.jpg",
-    "author": "Lee Hae-Min",
-    "genres": ["Action", "Fantasy", "Adventure"]
-  },
-  {
-    "title": "A Moi the Legendary Item",
-    "original_title": "A Moi the Legendary Item",
-    "description": "A hero finds a legendary item that changes his life and the world.",
-    "release_date": "2021-01-10",
-    "total_chapters": 80,
-    "total_seasons": 1,
-    "cover_url": "/covers/a_moi_legendary_item.jpg",
-    "author": "N/A",
-    "genres": ["Action", "Adventure", "Fantasy"]
-  },
-  {
-    "title": "Only Ending for the Villainess is Death",
-    "original_title": "Only Ending for the Villainess is Death",
-    "description": "In a world of deadly trials, the villainess fights to survive against all odds.",
-    "release_date": "2022-02-20",
-    "total_chapters": 70,
-    "total_seasons": 1,
-    "cover_url": "/covers/villainess_death.jpg",
-    "author": "N/A",
-    "genres": ["Action", "Dark Fantasy", "Adventure"]
-  },
-  {
-    "title": "The Boxer",
-    "original_title": "The Boxer",
-    "description": "A young prodigy rises through the ranks in a brutal boxing world.",
-    "release_date": "2020-09-01",
-    "total_chapters": 60,
-    "total_seasons": 1,
-    "cover_url": "/covers/the_boxer.jpg",
-    "author": "JH",
-    "genres": ["Action", "Sports", "Drama"]
-  },
-  {
-    "title": "The Second Coming of Gluttony",
-    "original_title": "The Second Coming of Gluttony",
-    "description": "A man who lost everything returns with a mysterious power to change his fate.",
-    "release_date": "2018-05-01",
-    "total_chapters": 130,
-    "total_seasons": 2,
-    "cover_url": "/covers/second_coming_gluttony.jpg",
-    "author": "Ro Yujin",
-    "genres": ["Action", "Fantasy", "Adventure"]
-  },
-  {
-    "title": "Ranker Who Lives A Second Time",
-    "original_title": "Ranker Who Lives A Second Time",
-    "description": "After discovering his brother's death, a man climbs a deadly tower to seek revenge.",
-    "release_date": "2018-06-01",
-    "total_chapters": 140,
-    "total_seasons": 2,
-    "cover_url": "/covers/ranker_second_time.jpg",
-    "author": "Sadoyeon",
-    "genres": ["Action", "Fantasy", "Adventure"]
-  }
+    {
+        "title": "Solo Leveling: Ragnarok",
+        "original_title": "나 혼자만 레벨업 : 라그나로크",
+        "description": "After witnessing the death of one of their own, the Absolute Ones — creators of the many universes outside of our own — frantically seek to fill the power void left by their fallen brother. With earth's existence in danger once more as gates spill monsters into our dimension, Seong Su-Ho must answer the call and conquer the shadow dungeon while learning of his father's legendary legacy.\n\n(Source: Tapas, edited)",
+        "release_date": "2024-07-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/ade0306c-f4b6-4890-9edb-1ddf04df2039/fe76445d-387f-4ff6-8340-f06403c20dbe.jpg",
+        "author": "DAUL (다울)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "ade0306c-f4b6-4890-9edb-1ddf04df2039",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:29.282Z"
+    },
+    {
+        "title": "Omniscient Reader",
+        "original_title": "전지적 독자 시점",
+        "description": "Back then, Dok-Ja had no idea. He had no idea his favorite web novel 'Three Ways to Survive the Apocalypse' was going to come to life, and that he would become the only person to know how the world was going to end. He also had no idea he would end up becoming the protagonist of this novel-turned-reality. Now, Dok-Ja will go on a journey to change the course of the story and save humankind once and for all.\n\n(Source: WEBTOON, edited)",
+        "release_date": "2020-05-26",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/9a414441-bbad-43f1-a3a7-dc262ca790a3/be18dc9a-7f1c-4ca5-b318-ffff2d7d58c3.jpg",
+        "author": "sing N song (싱숑)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "9a414441-bbad-43f1-a3a7-dc262ca790a3",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:23:54.242Z"
+    },
+    {
+        "title": "Tower of God",
+        "original_title": "신의 탑",
+        "description": "What do you desire? Money and wealth? Honor and pride? Authority and power? Revenge? Or something that transcends them all? Whatever you desire—it's here.\n\n(Source: WEBTOON)",
+        "release_date": "2010-06-30",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/57e1d491-1dc9-4854-83bf-7a9379566fb2/5ed269d1-63af-45f8-8d67-4e8aa1e1b520.jpg",
+        "author": "SIU",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "57e1d491-1dc9-4854-83bf-7a9379566fb2",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:23:59.314Z"
+    },
+    {
+        "title": "Bastard",
+        "original_title": "후레자식",
+        "description": "High school life is hard enough, but it’s even harder for Seon Jin. A sickly disabled boy, Jin might as well be invisible. No one ever pays attention to him, except for the bullies who prey on him for being weak. Jin, however, keeps a very dark secret—there’s a serial killer in his house…and it’s his father!\n\n(Source: Seven Seas Entertainment)\n\nNote: Includes one extra chapter.",
+        "release_date": "2014-07-04",
+        "total_chapters": 94,
+        "total_seasons": 5,
+        "cover_url": "https://uploads.mangadex.org/covers/36e53c00-9825-4934-90c1-3a188fbdd605/9d1ceef2-192b-49e2-85cf-6dfe82577c8f.jpg",
+        "author": "Injae",
+        "genres": [
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Psychological",
+            "Romance",
+            "Thriller"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "36e53c00-9825-4934-90c1-3a188fbdd605",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:24:04.825Z"
+    },
+    {
+        "title": "The Horizon",
+        "original_title": "수평선",
+        "description": "A world where everything has been lost. A boy and a girl alone together. A spark of hope kindled between them. All they can do is move forward. But against broken adults and devastating despair, how long will they be able to keep going...?\n\n(Source: Yen Press)",
+        "release_date": "2016-03-31",
+        "total_chapters": 21,
+        "total_seasons": 3,
+        "cover_url": "https://uploads.mangadex.org/covers/67bd081f-1c40-4ae2-95a2-6af29de4fc01/29dcabe0-9efe-4575-9fcf-36be55363591.jpg",
+        "author": "Jeong Ji-Hoon",
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Psychological"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "67bd081f-1c40-4ae2-95a2-6af29de4fc01",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:24:10.227Z"
+    },
+    {
+        "title": "SSS-Class Revival Hunter",
+        "original_title": "SSS급 죽어야 사는 헌터",
+        "description": "In the mysterious, RPG dungeon-like Tower, Confucius Kim lives a mundane existence, envying all the star hunters. One day, his wish for more is granted with a legendary skill to copy others’ abilities… at the cost of his life. Before he can make sense of it, he’s killed by the #1 hunter, the Flame Emperor! But this activates his skill and now he’s copied a new one, the ability to travel back in time upon death. How will Confucius use these skills to outplay the competition and rise to the top?\n\n(Source: Tapas)",
+        "release_date": "2020-12-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/4a973243-952e-44d7-a50f-883b4b7c9cc2/9adafa19-0424-4677-aab4-93a07a01a591.jpg",
+        "author": "Neida (네이다)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "4a973243-952e-44d7-a50f-883b4b7c9cc2",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:24:15.361Z"
+    },
+    {
+        "title": "Sweet Home",
+        "original_title": "스위트홈",
+        "description": "After an unexpected family tragedy, a reclusive high school student is forced to leave his home -- only to face something much scarier: a reality where monsters are trying to wipe out humanity. Now he must fight alongside a handful of reluctant heroes to try and save the world before it’s too late.\n\n(Source: WEBTOON)\n\nNote: Includes one extra chapter.",
+        "release_date": "2017-10-19",
+        "total_chapters": 141,
+        "total_seasons": 12,
+        "cover_url": "https://uploads.mangadex.org/covers/7cc37898-6669-407f-b7a6-f23a2859bc0b/c7130fcd-f384-4ae1-9d11-70a2c8e74f24.jpg",
+        "author": "Carnby Kim (김칸비)",
+        "genres": [
+            "Drama",
+            "Horror",
+            "Psychological",
+            "Supernatural",
+            "Thriller"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "7cc37898-6669-407f-b7a6-f23a2859bc0b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:24:20.483Z"
+    },
+    {
+        "title": "The God of High School",
+        "original_title": "갓 오브 하이스쿨",
+        "description": "Mori Jin is a high school student and Taekwondo specialist who enters \"The God of High School,\" a fighting tournament that promises the winner anything they want. What began as a competition to seek out the best high school fighter soon reveals itself to be part of a much greater plot that goes beyond Mori's wildest imagination. What will he give to become a true god?\n\n(Source: WEBTOON)",
+        "release_date": "2011-04-08",
+        "total_chapters": 569,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/3fb3f1c3-153e-400c-a0b3-4eb9cc53be3b/3757dac9-9926-41d7-b4a6-c4a170834f31.jpg",
+        "author": "PARK Yong-je",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "3fb3f1c3-153e-400c-a0b3-4eb9cc53be3b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:24:26.188Z"
+    },
+    {
+        "title": "Teenage Mercenary",
+        "original_title": "입학용병",
+        "description": "At the age of eight, I-Jin Yu lost his parents in a plane crash and became stranded in a foreign land, forced to become a child mercenary in order to stay alive. He returns home ten years later to be reunited with his family in Korea, where food and shelter are plenty and everything seems peaceful. But I-Jin will soon learn that life as a teenager is a whole other feat of survival. With only one year of high school left, I-Jin must master new tactics to maneuver his way around the schoolhouse battleground. Can he survive a year of high school? Or rather, will the school be able to survive him?\n\n(Source: WEBTOON)",
+        "release_date": "2020-11-07",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/9ecd208c-c592-4462-9f57-4d7d4a9f956f/75e7fac6-c9f4-43ce-ae0e-cbf06f28f99b.jpg",
+        "author": "YC",
+        "genres": [
+            "Action",
+            "Drama"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "9ecd208c-c592-4462-9f57-4d7d4a9f956f",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:24:31.366Z"
+    },
+    {
+        "title": "The Greatest Estate Developer",
+        "original_title": "역대급 영지 설계사",
+        "description": "When civil engineering student Su-Ho Kim falls asleep reading a fantasy novel, he wakes up as a character in the book! Su-Ho is now in the body of Lloyd Frontera, a lazy noble who loves to drink, and whose family is in a mountain of debt. Using his engineering knowledge, Su-Ho designs inventions to avert the terrible future that lies in wait for him. With the help of a giant hamster, a knight, and the world’s magic, can Su-Ho dig his new family out of debt and build a better future?\n\n(Source: WEBTOON, edited)",
+        "release_date": "2021-08-05",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/d7f56ace-cd30-48b9-8b64-afeca0077fca/c2613a1e-426f-4ee3-a6f7-caf003324dc7.jpg",
+        "author": "Lee Hyunmin (이현민)",
+        "genres": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "d7f56ace-cd30-48b9-8b64-afeca0077fca",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:24:36.689Z"
+    },
+    {
+        "title": "A Returner's Magic Should Be Special",
+        "original_title": "귀환자의 마법은 특별해야 합니다",
+        "description": "The worst calamity humankind has ever faced...\n\nShadow Realms have ravaged the earth and decimated almost everyone in their way. The survival of humanity hinges upon the success of just six mages, including analytic fighter Desir Herrman. The remaining heroes make one final stand to end the bloodshed...but to no avail. Desir closes his eyes on what should be the end of his life—only to open them and see the beginning of his school days?! Desir has returned thirteen years back to the past, where he’s been given another chance. A chance to see the loved ones he lost, a chance to meet his fellow warriors again, and a chance to save the world…!\n\n(Source: Yen Press)",
+        "release_date": "2018-05-20",
+        "total_chapters": 268,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/6a468761-5bd6-4de0-a0cb-47cb456ac2e0/98162533-1838-4639-8419-2f19f8af651b.png",
+        "author": "Usonan (유소난)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "6a468761-5bd6-4de0-a0cb-47cb456ac2e0",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:24:42.878Z"
+    },
+    {
+        "title": "I’m the Max-Level Newbie",
+        "original_title": "나 혼자 만렙 뉴비",
+        "description": "Kang Jin-Hyeok, a gaming streamer, and content creator is the only person who has cleared the game, [Tower of Trials]. However, as the game’s popularity declines, it becomes increasingly difficult for him to continue making a living as a content creator. Jinhyeok prepares to end his 11-year-long relationship with the game and say goodbye to his humble group of subscribers. But on that very day, the Tower of Trials appears in reality with a message saying that humanity will perish unless all players clear each floor within 90 days. Jin-Hyeok, who knows the game better than anyone, decides to use his knowledge to his advantage and dominate the tower. It’s time to show everyone what a hardcore gamer can do!\n\n(Source: Tappytoon, edited)",
+        "release_date": "2021-07-29",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/a253e13a-2b41-4f7d-915e-1e31a3f5d31d/431198ea-b840-41b9-8cae-d4574b5af943.jpg",
+        "author": "WAN.Z",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "a253e13a-2b41-4f7d-915e-1e31a3f5d31d",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:24:48.001Z"
+    },
+    {
+        "title": "Second Life Ranker",
+        "original_title": "두번사는랭커",
+        "description": "Yeonwoo’s brother disappeared years ago, and he’s devastated to learn of his death. As he copes with his loss, he’s given a pocket watch and learns there’s more to his brother’s death: he was betrayed while competing in the Tower of the Sun God. Now it’s Yeonwoo’s turn to use the knowledge his brother left behind. Can Yeonwoo (call sign: Cain) navigate that world and gain enough power and experience to reach the top of the tower, defeating his brother’s enemies and all those who stand in his way?\n\n(Source: Tapas)",
+        "release_date": "2019-05-16",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/1ffca916-3ad7-46d2-9591-a9b39e639971/60aef1af-2df0-46aa-8270-e1ad9d287289.jpg",
+        "author": "Sadoyeon (사도연)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "1ffca916-3ad7-46d2-9591-a9b39e639971",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:24:53.197Z"
+    },
+    {
+        "title": "Nano Machine",
+        "original_title": "나노마신",
+        "description": "Nanotechnology meets martial arts at the Mashin Academy. Yeo-Un’s mother may not be one of the High Priest’s six official wives, but his father’s blood still qualifies him for a chance at the position of Minor Priest. Will a mysterious nanomachine injection from a future descendent help Yeo-un in this fierce competition against his powerful half-siblings?\n\n(Source: WEBTOON)",
+        "release_date": "2020-06-10",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/6e4805a6-75ab-462d-883c-4ddedb8e4df6/16406b53-9224-4639-8511-9951484ad99a.jpg",
+        "author": "Great H (현절무)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "6e4805a6-75ab-462d-883c-4ddedb8e4df6",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:24:58.370Z"
+    },
+    {
+        "title": "Lookism",
+        "original_title": "외모지상주의",
+        "description": "Daniel is an unattractive loner who wakes up in a different body. Now tall, handsome, and cooler than ever in his new form, Daniel aims to achieve everything he couldn't before. How far will he go to keep his body... and his secrets?\n\n(Source: WEBTOON)",
+        "release_date": "2014-11-20",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/596191eb-69ee-4401-983e-cc07e277fa17/6df15145-f15b-43f0-b87b-22fd3694eaca.jpg",
+        "author": "Park Tae Joon",
+        "genres": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "596191eb-69ee-4401-983e-cc07e277fa17",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:25:03.523Z"
+    },
+    {
+        "title": "Wind Breaker",
+        "original_title": "윈드브레이커",
+        "description": "Jay's the perfect student. He's got straight As and he's the student body president. But after being coerced into joining the school's biking team, the Hummingbird Crew, he discovers a whole new world outside of studying. What new adventures will he face outside the comfort of his textbooks?\n\n(Source: WEBTOON)\n\nNotes:\n\n- Includes two extra chapters.\n\n- The work was cancelled after it was discovered that the artist had been tracing other people's art.",
+        "release_date": "2013-12-08",
+        "total_chapters": 554,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/c1c408f6-3dec-4d62-b6b3-b57e615d933c/8b279428-fa32-49b2-bd51-4f8d4db7d420.jpg",
+        "author": "Jo Yongseok (조용석)",
+        "genres": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Romance",
+            "Sports"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "c1c408f6-3dec-4d62-b6b3-b57e615d933c",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:25:08.758Z"
+    },
+    {
+        "title": "Eleceed",
+        "original_title": "일렉시드",
+        "description": "Jiwoo is a kind-hearted young man who harnesses the lightning quick reflexes of a cat to secretly make the world a better place – one saved little child or foster pet at a time. Kayden is a secret agent on the run, who finds himself stuck in the body of a…um…decidedly fat old fluffy cat. Together, armed with Jiwoo’s super powers and Kayden’s uber-smarts, they’re out to fight those forces who would let evil rule this world. That is, if they can stand each other long enough to get the job done.\n\n(Source: WEBTOONS)",
+        "release_date": "2018-10-02",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/7e544761-7d3d-4fce-8137-719814d7d138/52cf193d-6862-43e8-9de4-1025c0e6e297.jpg",
+        "author": "Son Jae-Ho (손제호)",
+        "genres": [
+            "Action",
+            "Comedy",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "7e544761-7d3d-4fce-8137-719814d7d138",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:25:14.419Z"
+    },
+    {
+        "title": "The Legend of the Northern Blade",
+        "original_title": "북검전기",
+        "description": "For decades, the brave warriors of the Northern Heavenly Sect fought to keep the world safe from the evil Silent Night. But when the fourth generation leader is accused of colluding with the enemy, he is forced to disband the sect and commit suicide to protect his son, Moo-Won. With no family and allies left, Moo-Won leads a dreary life under close surveillance... until a surprise attack from the Silent Night gives him a chance to escape to the mountains. There, the young warrior trains to master the fighting techniques of his predecessors, before the mysterious disappearance of a loved one brings him back to the mainland. Follow Moo-Won as he embarks on a journey to avenge his father’s death and take down the villains who threaten to plunge the world into darkness! \n\n(Source: Tappytoon)",
+        "release_date": "2019-12-31",
+        "total_chapters": 202,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/9ed16bc9-f570-4e71-8dda-aebc098b683b/8a917622-1853-47b7-9114-997da510a8a2.jpg",
+        "author": "Ugak (우각)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "9ed16bc9-f570-4e71-8dda-aebc098b683b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:25:19.949Z"
+    },
+    {
+        "title": "Lout of Count’s Family",
+        "original_title": "백작가의 망나니가 되었다",
+        "description": "Kim Rok-Su has one life motto: “Let’s not get beat up.” But after dozing off somewhere midway through the novel “Birth of a Hero,” he wakes up as Cale Henituse - one of the minor villains in the novel who gets the beating of a lifetime from soon-to-be hero Choi Han. Only time will tell how much longer he has before that dreadful encounter. Can Kim Rok-Su change the course of this story so he can enjoy a long and lavish life free of the soon-to-be hero?\n\n(Source: Tappytoon)",
+        "release_date": "2020-08-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/1dc3ebf9-c86c-431c-bcca-5e35ac124f28/f9ff647e-55f7-4065-95b3-0217eb3a8281.jpg",
+        "author": "PING (별나래)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "1dc3ebf9-c86c-431c-bcca-5e35ac124f28",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:25:25.031Z"
+    },
+    {
+        "title": "The Boxer",
+        "original_title": "더 복서",
+        "description": "You’ve got the raw talent. Or you’re the underdog. But do you have the heart? Do you have what it takes? Let’s see what you’re made of. The real fight starts now! \n\n(Source: WEBTOON)\n\nNote: Includes 30 extra chapters.",
+        "release_date": "2019-12-04",
+        "total_chapters": 133,
+        "total_seasons": 13,
+        "cover_url": "https://uploads.mangadex.org/covers/40efa78d-d27a-4364-92ac-6d7af69a851b/1e3a2c9c-ee69-43be-a4ed-aa8d8006a2e3.png",
+        "author": "Jeong Ji-Hoon",
+        "genres": [
+            "Action",
+            "Drama",
+            "Sports"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "40efa78d-d27a-4364-92ac-6d7af69a851b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:25:30.398Z"
+    },
+    {
+        "title": "The World After the Fall",
+        "original_title": "멸망 이후의 세계",
+        "description": "Faced with imminent defeat and certain death, would you choose to run – or continue to fight for a doomed world? When mysterious towers appear across the world, summoning monsters that prey on mankind, this is the choice presented to the Tower Walkers – adventurers with special powers to fight the monsters. On the brink of death, they can choose to use a “regression stone” to return to the past for a second chance, though this decision places them in a separate timeline forever. Stubborn Tower Walker Jae-Hwan rejects this choice, choosing to fight for the original timeline, and learning shocking secrets about the Tower along the way.\n\n(Source: WEBTOON, edited)",
+        "release_date": "2022-02-07",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/14b81959-13ed-46eb-a277-da66f672acb5/1321f61b-c7e2-4213-a30c-7f7eaae1e42c.jpg",
+        "author": "sing N song (싱숑)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Mystery"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "14b81959-13ed-46eb-a277-da66f672acb5",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:25:35.673Z"
+    },
+    {
+        "title": "The Art of Reincarnation",
+        "original_title": "환생의 정석",
+        "description": "Despite having only one arm, Daven had finally proven his worth after defeating his cousin Kazin in honorable combat. But Kazin took advantage of Daven’s mercy, stabbing him in the back and imprisoning him for life. 500 years later, the minor god Yulian is reborn and unknowingly summons Daven’s soul into the body of a young boy named Vincent Adenka. As the pair work to reveal the truth of Daven and Kazin, Vincent must relearn the art of combat while Yulian discovers the art of reincarnation.\n\n(Source: Tapas)",
+        "release_date": "2022-08-10",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/773c2211-750b-4fff-bd64-c914986e4637/cf60f76c-19fa-441f-b20d-9528180aaff7.jpg",
+        "author": "Blue-Deep",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "773c2211-750b-4fff-bd64-c914986e4637",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:58.106Z"
+    },
+    {
+        "title": "The Swordmaster's Son",
+        "original_title": "검술명가 막내아들",
+        "description": "Jin Runcandel was destined to become the head of his swordmaster clan. But despite his best efforts, he's banished for his shoddy swordsmanship. Though Jin eventually makes a contract with the god Solderet and is freed from the curse that hindered his abilities, he meets a rather unfortunate end. In the next moment, however, he awakens as a baby, long before his tragedy began. Armed with a second chance and some new powers, Jin swears to fulfill his destiny and become the ultimate swordmaster. \n\n(Source: Tapas)",
+        "release_date": "2022-04-30",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/85a8ebda-9959-4244-ad03-a2d9f6a746a2/3b1c5579-b65b-41e9-9851-74154ce68e02.jpg",
+        "author": "AZI",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "85a8ebda-9959-4244-ad03-a2d9f6a746a2",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:25:46.298Z"
+    },
+    {
+        "title": "Return of the Blossoming Blade",
+        "original_title": "화산귀환",
+        "description": "When Cheong-Myeong of the Mount Hua Sect awakens a hundred years in the future, his last memories are of a bloody battle against the Leader of the Demonic Cult, the evil Cheon-Ma. The battle almost saw the end of the Ten Great Sects of ancient China, when Cheong-Myeong ended the hard-fought struggle by striking down Cheon-Ma. Soon after, he succumbed to his wounds, filled with regret at their pyrrhic victory. All is not lost, however, as he awakens to his second chance at life. Shocked to find his beloved Mount Hua Sect reduced to a mere shadow of itself in the present day, Cheong-Myeong embarks on a journey to restore Mount Hua to its former glory.\n\n(Source: WEBTOON, edited)",
+        "release_date": "2021-03-23",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/f0f62b75-5989-4f32-9b59-ab56abe35fc1/6a583c43-1e4a-45e0-91e4-8b48013b234c.jpg",
+        "author": "Biga (비가)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "f0f62b75-5989-4f32-9b59-ab56abe35fc1",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:25:51.665Z"
+    },
+    {
+        "title": "Villains Are Destined to Die",
+        "original_title": "악역의 엔딩은 죽음뿐",
+        "description": "This game’s got me obsessed! It’s like it’s taken over my life... wait—HARD MODE ACTIVATED. No-no-no-no-no! It has literally taken me and thrown me into the part of Penelope Eckhart. Love is easy as the heroine, but as the hated villainess, I’m trying very hard not to die… at the hands of my brothers… the prince… a fork… every possible ending is death! This world is stacked against me, but can my wits and insider game knowledge score the affection of these male characters? Or the reset button???\n\n(Source: Tapas)",
+        "release_date": "2020-05-01",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/71de8cca-26a1-428d-855b-364b334c2eee/05de6448-daf7-4fd6-8d65-61c1fc1195d3.png",
+        "author": "Little Big (리틀빅)",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "71de8cca-26a1-428d-855b-364b334c2eee",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:03.918Z"
+    },
+    {
+        "title": "Who Made Me a Princess",
+        "original_title": "어느 날 공주가 되어버렸다",
+        "description": "The story of Athanasia, forsaken princess of the Obelian Empire, ends with her execution at the hands of her own father—or does it? Her tragic tale is the plot of the novel The Lovely Princess. But now, a modern woman who read the book has just woken up as baby Athanasia herself, filled with her own memories and knowledge of the story she’s stuck in! Determined to survive her doomed fate, infant Athanasia embarks on this new life with a plan: avoid attention and hoard valuables to fund her escape. When her plan goes awry, she suddenly needs to charm her way into the good graces of her father, the beautiful tyrant emperor, so he doesn’t kill her again!\n\n(Source: Seven Seas Entertainment)",
+        "release_date": "2017-12-20",
+        "total_chapters": null,
+        "total_seasons": 9,
+        "cover_url": "https://uploads.mangadex.org/covers/722a45c0-5e55-40f2-929b-ff69b0989edb/1b24d6dc-04a2-466b-a5d7-b86dde5087d3.jpg",
+        "author": "Spoon (스푼)",
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "722a45c0-5e55-40f2-929b-ff69b0989edb",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:09.716Z"
+    },
+    {
+        "title": "Revenge of the Baskerville Bloodhound",
+        "original_title": "철혈검가 사냥개의 회귀",
+        "description": "Raised to kill like a pack of loyal hounds, the Baskerville children took countless lives as a band of fearsome assassins. Despite being the shunned illegitimate son of the brood, Vikir served his family faithfully, only to meet his untimely demise at his father’s hands. But when he is inexplicably reborn with a second chance at life, Vikir, armed with the memories and knowledge of his past, swears to rise above the pack and take his revenge. This time, he's ready to bite the hand that feeds.\n\n(Source: Tapas)",
+        "release_date": "2023-04-14",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/fbf326f7-ccbd-4d54-bbad-852d76e46523/1084eda4-b6f9-46de-96b8-a3898c4819a0.jpg",
+        "author": "Seol Arang",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "fbf326f7-ccbd-4d54-bbad-852d76e46523",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:14.996Z"
+    },
+    {
+        "title": "The Archmage Returns After 4000 Years",
+        "original_title": "4000년 만에 귀환한 대마도사",
+        "description": "Lucas Trowman was the greatest archmage in history until he was condemned by Demigod to spend eternity losing his mind. But 4,000 years later, he’s thrust back into this world, into the body of Frei Blake, the weakest, most un-talented student at the prestigious Westroad Academy for mages. After all this time, the world of magic has barely progressed. Could this be the work of Demigod? Determined to find out, Lucas seeks to reach the highest levels of power once again and get his revenge.\n\n(Source: Tapas)",
+        "release_date": "2020-05-01",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/ff14c29a-3456-4047-828d-10c9671cac4c/ca338cf5-23d5-4508-b215-a342a1b7b7b6.jpg",
+        "author": "Nakhasan (낙하산)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "ff14c29a-3456-4047-828d-10c9671cac4c",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:20.410Z"
+    },
+    {
+        "title": "Overgeared",
+        "original_title": "템빨",
+        "description": "Sin Yeong-U (a.k.a. Grid), an unlucky man in life and a low-level player in the popular VR game “Satisfy,” finds a powerful item that earns him a rare legendary class title: “Pagma’s Successor.” He’s now a skilled blacksmith who can forge unique weapons and equip the game’s most powerful gear. Grid resolves to use his new abilities to achieve fame and fortune, but as his very existence begins to stir up trouble in Satisfy, he realizes that life as a legend may be more than he bargained for….\n\n(Source: Tapas, edited)",
+        "release_date": "2020-04-01",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/3fc308c9-4b00-4dc3-943e-1f39242bc708/2af0c6f7-cd3d-4c59-afee-a8ff471e0561.jpg",
+        "author": "Saenal (박새날)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "3fc308c9-4b00-4dc3-943e-1f39242bc708",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:25.892Z"
+    },
+    {
+        "title": "Pick Me Up",
+        "original_title": "픽 미 업!",
+        "description": "1-Star heroes are just fodder for learning a boss' attack patterns. That was Seojin Han's philosophy when playing the notoriously difficult game Pick Me Up. But after being transported into the game as one of those 1-star heroes, he's got no choice but to rise in rank and defeat the player controlling him and his party. Can a gacha game character hope to defeat a player akin to being his god?\n\n(Source: Tapas)",
+        "release_date": "2022-12-28",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/58167656-a065-4b49-b499-bd73d00555d5/33700ed5-d16e-4568-ac22-ea4079eef90b.png",
+        "author": "Hermod (헤르모드)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "58167656-a065-4b49-b499-bd73d00555d5",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:31.220Z"
+    },
+    {
+        "title": "The Return of the Disaster-Class Hero",
+        "original_title": "재앙급 영웅님이 귀환하셨다",
+        "description": "Humans call them “calamities”—the unknown, destructive creatures that suddenly appeared on earth. To challenge these calamities, the zodiac gods awakened 12 humans known as saints. But there was one more that awoke—unchosen but the greatest hero of all: Geon Lee. His allies betrayed him and left him for dead, but now, 20 years later, he’s more powerful than ever and ready to teach his fellow “saints” a lesson they’ll never forget. \n\n(Source: Tapas)",
+        "release_date": "2021-12-23",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/0c3e20da-6f48-468f-bf92-755ee46e05ec/a33c16eb-99bc-467a-8586-3c486283efb2.jpg",
+        "author": "SAN.G (산지직송)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "0c3e20da-6f48-468f-bf92-755ee46e05ec",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:36.646Z"
+    },
+    {
+        "title": "Noblesse",
+        "original_title": "노블레스",
+        "description": "Rai wakes up from an 820-year-long sleep and starts his new life as a student in a high school founded by his loyal servant, Frankenstein. But his peaceful days with other human students are soon interrupted by mysterious attackers known as the \"Unions.\"\n\n(Source: WEBTOON)",
+        "release_date": "2007-12-30",
+        "total_chapters": 544,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/f61952ad-63bb-4e81-a03e-9e50b9e23037/672b802b-92a5-400b-98f8-c0b18bb7b94a.jpg",
+        "author": "Son Jae-Ho (손제호)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "f61952ad-63bb-4e81-a03e-9e50b9e23037",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:26:41.683Z"
+    },
+    {
+        "title": "The Player Who Can't Level Up",
+        "original_title": "레벨업 못하는 플레이어",
+        "description": "When Kim Kigyu received his invitation to become a player (a unique-ability player, at that), he thought his struggles were over. But no matter how hard he tries, he just can’t seem to get past level 1! After five years of working as a guide on the lower floors of the tower, he’s finally discovered his ability to link with “Egos” and raise his stats. As his new skills unlock adventures in unexplored gates, Kigyu gets his chance to defy expectations and show the world that rank isn’t everything.\n\n(Source: Tapas)",
+        "release_date": "2021-02-28",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/a796fb50-cdc9-4c15-a48d-bc1d733d89b2/ff288e38-47a0-4adf-8825-1d3286ebb69a.jpg",
+        "author": "GaVinGe (가빈지)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "a796fb50-cdc9-4c15-a48d-bc1d733d89b2",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:47.195Z"
+    },
+    {
+        "title": "Tomb Raider King",
+        "original_title": "도굴왕",
+        "description": "Mysterious tombs appeared all over the world one day, each containing a relic which grants its owner supernatural abilities. Joo-Heon Suh is a tomb explorer, excavator, and raider. Betrayed by his employer, he's about to die at the hands of a powerful new relic when he suddenly finds himself 15 years in the past, before any relics or tombs made their debut. Driven by feelings of revenge, how will Joo-Heon use his knowledge of the future to become the Tomb Raider King? \n\n(Source: Tapas)\n\nNote: Includes 14 extra chapters.",
+        "release_date": "2019-06-30",
+        "total_chapters": 411,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/16e1767d-a8d5-4173-b87f-f7023f6c4578/a7959d46-cc3d-40cd-9a49-d3cded838058.jpg",
+        "author": "SAN.G (산지직송)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "16e1767d-a8d5-4173-b87f-f7023f6c4578",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:26:52.588Z"
+    },
+    {
+        "title": "The Infinite Mage",
+        "original_title": "무한의 마법사",
+        "description": "After Sirone was abandoned in a stable, he was found by a family of hunters and raised in a loving home. Despite the hardships of the peasant life, he learned how to read from a young age and became obsessed with books, especially ones on the history of magic. One day, he has an unlikely encounter with a mage and learns how to enter the \"spirit zone,\" the first step to learning how to use magic. Although they say only nobles can be mages, will Sirone be able to prove his infinite potential?\n\n(Source: Tapas)",
+        "release_date": "2022-12-30",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/4d97b35d-2d9f-4369-964f-3b0ce2c7fbbc/06836fd9-2735-433e-b80d-66f85ea6b9fe.jpg",
+        "author": "REDICE Studio (레드아이스 스튜디오)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "4d97b35d-2d9f-4369-964f-3b0ce2c7fbbc",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:26:57.704Z"
+    },
+    {
+        "title": "Latna Saga: Survival of a Sword King",
+        "original_title": "이계 검왕 생존기",
+        "description": "After being recently discharged from military service and just drifting through life, Hanbin Ryu is suddenly transported to another world. However, his “guide line,” the system bestowed upon him to help with his survival and growth, was filled with errors, causing him to be stuck in the tutorial stage for over 20 years. When he is finally released from this personal hell, he finds everyone has turned against otherworlders like him. Just how will this low-level, super-tutorial newbie survive?\n\n(Source: Tapas)",
+        "release_date": "2019-12-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/478e6926-b8bc-465c-9694-2bae1dbaf32b/f751dd54-5f61-44c4-a85b-5b795651fa82.jpg",
+        "author": "YKB (임경배)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "478e6926-b8bc-465c-9694-2bae1dbaf32b",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:02.943Z"
+    },
+    {
+        "title": "My Blasted Reincarnated Life",
+        "original_title": "빌어먹을 환생",
+        "description": "When the warrior Hamel sacrifices himself to protect his rival Bermut Lionhart, he makes Bermut vow to vanquish the last of the demon kings. Reincarnated with his memories 300 years later, he is shocked to find that not only are the demon kings still alive, but that he has been reborn as Eugene Lionhart, a member of his former rival’s bloodline! Now, as Eugene comes of age, he must train to prove himself as a Lionhart and eliminate the remaining demon kings once and for all. \n\n(Source: Tapas)",
+        "release_date": "2022-06-22",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/6e769716-df1e-4d66-89cc-32f3b46e17dc/d6613629-9df7-4cc0-89b2-e7b251b7a7e9.jpg",
+        "author": "Kiki (키키)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "6e769716-df1e-4d66-89cc-32f3b46e17dc",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:08.229Z"
+    },
+    {
+        "title": "The Max Level Hero Strikes Back!",
+        "original_title": "만렙 영웅님 께서 귀환 하신다!",
+        "description": "Struck by an enemy’s arrow, the powerless Prince Davey O’Rowane falls into a coma. His soul travels to a place where the greatest of the great gather—the honorable Hall of Heroes. There a thousand years pass as Davey undergoes excruciating training under their watchful eyes to become a hero too strong for his own good. Now back to his timeline and his kingdom, he’s wide awake and the enemies hiding in the king’s court better be prepared. The prince they had dismissed is now their biggest threat!\n\n(Source: Tapas)",
+        "release_date": "2020-10-26",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/b407de00-75a5-415a-a001-585fb41b9cf2/ba79a85a-1a04-4739-a895-b1124823656a.jpg",
+        "author": "Yudo (유도)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "b407de00-75a5-415a-a001-585fb41b9cf2",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:13.402Z"
+    },
+    {
+        "title": "The Lazy Lord Masters the Sword",
+        "original_title": "나태 공자, 노력 천재 되다",
+        "description": "After witnessing the shocking death of his mother, young Airen Farreira uses sleep to escape his painful reality, earning him the nickname, “the lazy lord”. Yet, in spite of others’ jeers and whispers, Airen has no intention of changing his ways. But when he awakens one day from a dream about a mysterious swordsman, his life’s trajectory takes a complete turn...\n\n(Source: WEBTOON)",
+        "release_date": "2021-05-21",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/dd9689c2-46f0-4e80-9c31-ea27cf48044f/ace01b19-e8c3-4482-83a3-be0f92a339fe.jpg",
+        "author": "Eun Ryeowon",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "dd9689c2-46f0-4e80-9c31-ea27cf48044f",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:18.837Z"
+    },
+    {
+        "title": "After Ten Millennia in Hell",
+        "original_title": "만 년 만에 귀환한 플레이어",
+        "description": "Oh Kangwoo the Demon King has had it with ruling over Hell and wants to return to Earth. But when he finally gets there, not only are his powers sealed, but the Earth he once knew has turned into an MMORPG free-for-all. Dimensional gates have appeared all over the world, and \"players\" enter them to make a living by hunting monsters. If Kangwoo wants to survive in this dangerous game, he's going to have to level up, and fast. But for this demon king, hell on earth might be worse than Hell itself! \n\n(Source: Tapas)",
+        "release_date": "2022-07-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/b17b675e-fb9f-4903-b4db-7c7deb2d1cac/f21b645e-55d4-4ec7-9ece-04b87e2ef6e4.jpg",
+        "author": "Butterfly Valley (나비계곡)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "b17b675e-fb9f-4903-b4db-7c7deb2d1cac",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:23.983Z"
+    },
+    {
+        "title": "The Reason Why Raeliana Ended Up at the Duke's Mansion",
+        "original_title": "그녀가 공작저로 가야 했던 사정",
+        "description": "Eunha Park was just a regular girl desperate to get into college, but when she finally does, her elation is cut short as she's pushed off a roof—only to wake up as Raeliana McMillan, a character from a novel whose death serves as the catalyst for the story's events. But Raeliana refuses to die a second time and is determined to change her fate, no matter what!\n\n(Source: Yen Press)",
+        "release_date": "2017-09-03",
+        "total_chapters": 158,
+        "total_seasons": 9,
+        "cover_url": "https://uploads.mangadex.org/covers/39e55355-dfb4-44e9-bd0b-df1fc3a0e33e/c6933fbb-e69b-492e-b3f9-ec722d7dc8ff.jpg",
+        "author": "Milcha (밀차)",
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Mystery",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "39e55355-dfb4-44e9-bd0b-df1fc3a0e33e",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:27:34.873Z"
+    },
+    {
+        "title": "Viral Hit",
+        "original_title": "싸움독학",
+        "description": "Scrawny high school student Ho-Bin Yoo is probably the last guy you’d expect to star in a NewTube channel that revolves around fighting. But after following some advice from a mysterious NewTube channel, Ho-Bin is soon knocking out guys stronger than him and raking in more money than he could have ever dreamed of. Can Ho-Bin keep this up, or will he eventually meet his match?\n\n(Source: WEBTOON)",
+        "release_date": "2019-11-16",
+        "total_chapters": 222,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/d2df017b-c003-4de6-9625-4f1fba7aef97/4602ab68-0eb7-42a3-bfba-5d90ec19ca40.jpg",
+        "author": "Park Tae Joon",
+        "genres": [
+            "Action",
+            "Comedy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "d2df017b-c003-4de6-9625-4f1fba7aef97",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:27:40.270Z"
+    },
+    {
+        "title": "Level Up with the Gods",
+        "original_title": "신과 함께 레벨업",
+        "description": "“Maybe Inner Gods can never defeat Outer Gods…” so thought Yu-Won Kim, a plucky, high-ranking warrior, after a bitter defeat. But Yu-Won is too tenacious to give up. His loss becomes the dawn of a new journey as a returnee. With renewed determination, Yu-Won starts back from where he began, smashing monster after monster and relearning his skills before taking on the Tower once again. But can he fight his way through the tutorials and level up once more, or will his conquest crumble before him?\n\n(Source: Tapas, edited)",
+        "release_date": "2021-08-14",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/4a43c227-b201-4fb7-b796-924c51797d50/813e10ac-a4d9-42ee-a0a6-ba8ef0d19340.jpg",
+        "author": "Ohyeon (오현)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "4a43c227-b201-4fb7-b796-924c51797d50",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:27:45.483Z"
+    },
+    {
+        "title": "Killing Stalking",
+        "original_title": "킬링 스토킹",
+        "description": "Yoon Bum, a scrawny and quiet man, has a crush on one of the most popular and handsome guys in his college: Sangwoo. After the two cross paths again, Yoon Bum's feelings grow in intensity until they become an obsession–and he breaks into Sangwoo's home. But what he sees inside is not the Sangwoo of his fantasies; his dreams of this alluring man abruptly turn into a nightmare.\n\n(Source: Seven Seas Entertainment)\n\nNotes: \n\n-  Won the Grand Prize in Lezhin's 2nd World Comic Contest.\n\n- Chapter count includes 4 extras.",
+        "release_date": "2016-11-03",
+        "total_chapters": 71,
+        "total_seasons": 8,
+        "cover_url": "https://uploads.mangadex.org/covers/f5a4972d-139c-448d-b83d-af8d7034d5a1/d4f22bcf-ac17-4c34-8ac9-643275cfb2ed.jpg",
+        "author": "Koogi",
+        "genres": [
+            "Drama",
+            "Horror",
+            "Mystery",
+            "Psychological",
+            "Thriller"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "f5a4972d-139c-448d-b83d-af8d7034d5a1",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:27:50.558Z"
+    },
+    {
+        "title": "The Return of the 8th Class Mage",
+        "original_title": "8클래스 마법사의 회귀",
+        "description": "As a powerful 8th class mage, Ian Paige took countless innocent lives under the orders of Emperor Ragnar, a close friend and ruler of the Greenriver Empire. Yet despite their closeness, Ragnar views Ian as a threat and subsequently poisons him. Using time magic, Ian saves himself and returns 30 years to the past. Now a young boy, Ian joins an elite order of mages to hone his abilities once again. This time, he’ll get revenge on the emperor who betrayed him and reclaim glory as an 8th class mage!\n\n(Source: Tapas)",
+        "release_date": "2021-07-02",
+        "total_chapters": 81,
+        "total_seasons": 5,
+        "cover_url": "https://uploads.mangadex.org/covers/b2ae13e3-bea1-4f11-bfbe-4269f66e74f8/3c1092ed-c1f7-412d-9a58-a0f24fde757d.jpg",
+        "author": "Ryu Song (류송)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "b2ae13e3-bea1-4f11-bfbe-4269f66e74f8",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:27:56.040Z"
+    },
+    {
+        "title": "Beware the Villainess!",
+        "original_title": "그 악녀를 조심하세요!",
+        "description": "Sit back and take in this romantic tale of an angelic heroine and her devoted suitors as they vie for the depths of her love... or not. This story’s about to go through some edits! After an accident, a modern-day college student awakens as the story’s villainess, Melissa Foddebrat. She’s far from anyone’s favorite, but she IS the daughter of the duke. Determined to live it up, this new Melissa is doing things her way — antiquated society, be damned! All idiots, prepare to step aside or perish!\n\n(Source: Tapas)",
+        "release_date": "2020-04-13",
+        "total_chapters": 128,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/af9aad67-fe97-4174-91a4-263979d62b0b/a68fb3ea-1ad2-4e25-b84f-917f9691a11c.jpg",
+        "author": "LICO",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "af9aad67-fe97-4174-91a4-263979d62b0b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:28:01.425Z"
+    },
+    {
+        "title": "The Novel's Extra",
+        "original_title": "소설 속 엑스트라",
+        "description": "Wouldn’t it be a dream to wake up in a world of your own creation? For Kim Hajin, it’s nothing short of a nightmare. With no clue how or why he’s been transported into his web novel — as a mere extra, no less! — Hajin has little choice but to see his story through until the end. Lucky for him, as the author, he knows this perilous world like the back of his hand. But when discrepancies in the plot begin popping up left and right, Hajin soon realizes that things aren’t quite so simple, after all…\n\n(Source: Tapas)",
+        "release_date": "2022-06-30",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/6f18c4ef-3eb6-40ee-98a4-507343f05855/70518b87-726e-4661-a18c-a36d51d1b814.png",
+        "author": "Jee Gab Song (지갑송)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "6f18c4ef-3eb6-40ee-98a4-507343f05855",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:28:07.102Z"
+    },
+    {
+        "title": "Maybe Meant to Be",
+        "original_title": "어쩌다보니 천생연분",
+        "description": "Jia Han, a 32-year-old freelancer with no work, is tired of her parents nagging her to get married and finally move out. When she runs into her childhood friend, Mincheol Jin, who is also feeling the same pressure from his parents, she blurts out that they should just get married to solve both of their problems. Little did she know he’d accept her suggestion, and she suddenly finds herself thrust into marriage. A story of an unexpected romance that’ll have you scrolling for more!\n\n(Source: WEBTOON)",
+        "release_date": "2022-02-10",
+        "total_chapters": 132,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/220282a9-a2ff-4a6b-9bed-f4a9da24c661/f1200311-3b79-436e-8edf-4f3a9465e2e5.jpg",
+        "author": "honeyskein (꿀타래)",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "220282a9-a2ff-4a6b-9bed-f4a9da24c661",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:28:12.291Z"
+    },
+    {
+        "title": "The Academy's Genius Swordsman",
+        "original_title": "아카데미의 천재칼잡이",
+        "description": "Following a momentous battle against giants for the fate of the world, Ronan emerges victorious as the last man standing of the imperial army. As he laments this hollow victory with his dying commander, Grand Marshal Adeshan, they quickly learn that the war is far from over and an overwhelming force of giants descends from the heavens. Fearing the worst, yet seeing hope in the courageous Ronan, Adeshan uses her last time slip to send him back to the past, so that he can enroll in the prestigious Phileon Academy and become the strongest swordsman the empire has ever seen!\n\n(Source: WEBTOON)",
+        "release_date": "2023-07-29",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/27676267-634a-4477-80ff-e3789bd7b5c3/b55e6de6-62c4-41ce-96a7-1582233e5e3a.jpg",
+        "author": "Kang Seoul (강서울)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "27676267-634a-4477-80ff-e3789bd7b5c3",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:28:19.079Z"
+    },
+    {
+        "title": "The Frozen Player Returns",
+        "original_title": "얼어붙은 플레이어의 귀환",
+        "description": "When Seo Jun-Ho and his companions sacrificed themselves to defeat the frost queen, they thought they were restoring peace to Earth. But after 25 years of being frozen solid, Jun-Hho thaws out only to find that nine more floors appeared in his absence, only one of which has been cleared! As the only one who holds the key to clearing the next floor and defrosting his friends, Jun-Ho must step up once again. But has this hero been in hibernation too long to take on the world’s fearsome new foes?\n\n(Source: Tapas, edited)",
+        "release_date": "2021-03-05",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/8cfccbc9-1b2a-4e90-a691-aa43be33136b/b6d2c8ca-96b9-4368-8253-f9f1f878b443.png",
+        "author": "JerryM (제리엠)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "8cfccbc9-1b2a-4e90-a691-aa43be33136b",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:28:24.222Z"
+    },
+    {
+        "title": "Unholy Blood",
+        "original_title": "화이트 블러드",
+        "description": "All pure-blooded vampire Ha-Yan Park wanted to do was live a normal life. But the rise of half-bloods ten years ago transformed the world into a dangerous and frightening place—robbing her of her one true wish. Determined to return Korea to how it used to be, Ha-Yan teams up with local police captain Eun-Tae Hwang to wipe out the bloodthirsty killers in a tale of hot-blooded romance and revenge.   \n\n(Source: Yen Press, edited)\n\nNote: Includes three extra chapters.",
+        "release_date": "2020-01-15",
+        "total_chapters": 93,
+        "total_seasons": 8,
+        "cover_url": "https://uploads.mangadex.org/covers/b2df3b97-06b4-4544-8ec3-79bc41dfa03b/b3d327d2-2c33-40ac-9c62-f85997578fae.jpg",
+        "author": "Lim Lina",
+        "genres": [
+            "Action",
+            "Drama",
+            "Romance",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "b2df3b97-06b4-4544-8ec3-79bc41dfa03b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:28:29.493Z"
+    },
+    {
+        "title": "The Advanced Player of the Tutorial Tower",
+        "original_title": "튜토리얼 탑의 고인물",
+        "description": "After being trapped for 12 years in a tower full of regenerating monsters, Hyeon-U Kim is more powerful than just about any human or monster on Earth. Now that he’s free, he’s determined to find out who was behind his imprisonment, even if that means he has to kill hordes of monsters — and inadvertently save the world — along the way.\n\n(Source: WEBTOON, edited)\n\nNote: Includes four extra chapters.",
+        "release_date": "2020-04-28",
+        "total_chapters": 223,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/b847ca8b-1b14-4780-98eb-10049467bc03/895ccd5a-7dbd-4db6-a252-d7f646c456ab.jpg",
+        "author": "Bangguseok Gimssi (방구석김씨)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "b847ca8b-1b14-4780-98eb-10049467bc03",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:28:34.796Z"
+    },
+    {
+        "title": "The Skeleton Soldier Failed to Defend the Dungeon",
+        "original_title": "해골병사는 던전을 지키지 못했다",
+        "description": "Meet the Skeleton Soldier, a meager but fiercely loyal fighter who serves to protect its master, Lady Succubus. Its dream of a peaceful life with her is shattered when they're both brutally murdered by a group of warriors one day. But what would’ve been a pathetic end to an unremarkable soul sparks a new beginning: when the Skeleton Soldier opens its eyes again, it has traveled back 20 years in time! “I must warn Lady Succubus of all the things to come!” But with no special combat skills and a history of failure and defeat, how can it stop the horrible events from unfolding again? Follow the Skeleton Soldier as it faces the most challenging quest of all—rewriting the ending to its own story.\n\n(Source: TappyToon)",
+        "release_date": "2018-06-11",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/d993f789-e7e5-4832-92fd-37614220b427/7e02ac66-1ac9-4eac-bc05-a264222ca87b.png",
+        "author": "Sosori (소소리)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "d993f789-e7e5-4832-92fd-37614220b427",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:28:40.403Z"
+    },
+    {
+        "title": "Return of the Mad Demon",
+        "original_title": "광마회귀",
+        "description": "The Mad Demon, Ja-Ha Lee, dreams of becoming the God of Martial Arts. Unfortunately, his dreams are dashed after he falls off a cliff while running from the Demonic Cult for stealing the Jade of Heaven. Yet this is not the end for Ja-Ha -- he awakens from the fall to find himself back in his 20s. With his knowledge of the future and of martial arts, he now has a chance at revenge and at getting life right this time. Will he be able to fulfill his dream this time around, or is he doomed to face the same fate yet again?\n\n(Source: WEBTOON)",
+        "release_date": "2021-07-22",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/09656afb-aaf9-4f9b-95fd-873cb537ddc3/e40d1077-be07-4923-a7b7-8fab68d400e8.jpg",
+        "author": "Yu Jin Sung (유진성)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "09656afb-aaf9-4f9b-95fd-873cb537ddc3",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:28:45.784Z"
+    },
+    {
+        "title": "FFF-Class Trashero",
+        "original_title": "FFF급 관심용사",
+        "description": "Han-Soo Kang was an average boy living in the normal world when he was suddenly summoned to Fantasia, a fantasy world run by demons. Deemed the Chosen Hero, he’s spent the last ten years building himself up to defeat the lord of Fantasia - which turned out to be a piece of cake. As he eagerly awaits his return to the real world, the “god” of Fantasia appears and throws a wrench in his plan: a report card that reveals there’s more to being a hero than just might.\n\n(Source: Tappytoon, edited)",
+        "release_date": "2019-09-17",
+        "total_chapters": 172,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/1a4bc1ca-2ed8-425b-8235-d9372a446d93/665bfbbb-c3b5-48a3-a649-ff3144592bca.jpg",
+        "author": "Farnar (파르나르)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "1a4bc1ca-2ed8-425b-8235-d9372a446d93",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:28:50.964Z"
+    },
+    {
+        "title": "66,666 Years: Advent of the Dark Mage",
+        "original_title": "66666년만에 환생한 흑마법사",
+        "description": "Diablo Volpir, a powerful dark mage, was defeated and sealed away in a battle against the 12 gods. He finally wakes up from his sleep 66,666 years later, however, in the body of a newborn baby, Jamie Welton! 9 years later, with a fraction of power he once held and with the loving family and peaceful environment he is now surrounded by, Jamie plans to exact revenge against the 12 gods that had sealed him away.\n\n(Source: WEBTOON)",
+        "release_date": "2021-06-29",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/cafd8f00-32c4-4fd2-b44f-0e25b9ff024b/1facce1c-2e01-4d67-81ad-859e13383c3f.jpg",
+        "author": "Hwabong (화봉)",
+        "genres": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "cafd8f00-32c4-4fd2-b44f-0e25b9ff024b",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:28:56.607Z"
+    },
+    {
+        "title": "Mythic Item Obtained",
+        "original_title": "신화급 귀속 아이템을 손에 넣었다",
+        "description": "In a world where technology and magic are almost indistinguishable from one another, monsters and creatures of myth and legend reign terror upon mankind. In humanity’s darkest moment, individuals with special god-like powers emerge to save the day. They are — the Awakened. Meet Jae-Hyun, a feeble Awakened human Raider, who struggles to make ends meet until one day a series of confounding events allow him to claim a powerful item that will change the course of history forever…\n\n(Source: WEBTOON, edited)",
+        "release_date": "2022-06-12",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/a08f45d1-788a-4b7c-b1c4-b87b083e1b59/042da263-5a0b-44dc-bec2-05043f784299.jpg",
+        "author": "Jung SeonYul (정선율)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "a08f45d1-788a-4b7c-b1c4-b87b083e1b59",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:29:01.917Z"
+    },
+    {
+        "title": "Girls of the Wild's",
+        "original_title": "소녀더와일즈",
+        "description": "Wild's High has a 42 year history as an all-girls private high school, meant solely for the elite. The girls of this school are trained daily in some of the deadliest forms of fighting around, from boxing, to sword-fighting, to taekwondo! This specialty school is the place where the most popular sporting event in the country is held, The Wild's League - the only place in the world where teenage girls partake in brutal fights... often to the death.\n\nThis year, Wild's has changed to a mixed-gender school. Despite opening their doors to males, the only one to apply is Song Jae-Gu. He has been granted a full 3-year scholarship regardless of grades, which he snaps up without second thought. For the past two years, every moment of his life has been spent taking care of his younger twin siblings.\n\nBut after meeting Queen, the bloody champion of Wild's League, drenching her in coffee and calling her a 'monster'... things are about to get messy - especially when he gets tied up with all the other unusual girls at this school!\n\nFollow Jae-Gu's struggle, from being the only male in school full of beautiful and deadly women to learning to fight and stand up for himself!",
+        "release_date": "2011-08-07",
+        "total_chapters": 260,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/642869eb-ec8b-449c-86d3-59e665302b15/7b6c332e-4021-4f22-bb7a-acfb00c3afd9.jpg",
+        "author": "Haegang (해강)",
+        "genres": [
+            "Action",
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "642869eb-ec8b-449c-86d3-59e665302b15",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:29:07.217Z"
+    },
+    {
+        "title": "Kill the Hero",
+        "original_title": "킬더히어로",
+        "description": "After he’s killed by the righteous leader of his own guild, Woojin gets a chance to start over. This time he’s not interested in saving the world from monsters—he’s got his sights set on revenge! His high-level kills quickly garner him notoriety among the game plebs, while boosting his stats as he masterminds his way closer to the top. But there's something no one can figure out: whose side he’s playing for. Now that he knows how to play to win, Woojin will stop at nothing to destroy the hero!\n\n(Source: Tapas)\n\nNote: Chapter count includes a 10-chapter side story",
+        "release_date": "2020-03-25",
+        "total_chapters": 153,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/e91dcdd1-005c-457d-a6c0-84f3fe22c1b0/4df101ac-ea56-4f61-ae71-915774181245.png",
+        "author": "Kimmamo",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "e91dcdd1-005c-457d-a6c0-84f3fe22c1b0",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:29:17.457Z"
+    },
+    {
+        "title": "I Shall Master this Family!",
+        "original_title": "이번 생은 가주가 되겠습니다",
+        "description": "The great Lombardi family was once at the top of the empire. After the death of its patriarch, the fate of the family and that of Firentia, born from a Lombardi and a peasant, fall to ruin at the hands of her useless and cruel cousins. But when she’s reincarnated as her seven-year-old self, she’ll work to protect the family’s honor, gain her grandpa Lulac’s favor, and prevent her own father’s death. In this lifetime, there’s only one way for her to win: become the head of their mighty household. \n\n(Source: Tapas)",
+        "release_date": "2021-02-28",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/f89ed57a-e4c0-48f5-b664-8ef88aa87fd9/8deb6809-72af-4b3a-83ec-9ada79cd0fa7.jpg",
+        "author": "Ant Studio (앤트스튜디오)",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "f89ed57a-e4c0-48f5-b664-8ef88aa87fd9",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:29:23.015Z"
+    },
+    {
+        "title": "The Gamer",
+        "original_title": "더 게이머",
+        "description": "Ji-Han Han is your typical high school student -- minus the fact the he’s acquired the special ability to view the world around him as a video-game. Not long after this discovery, he stumbles upon a hidden world filled with others just like him. Now, amidst juggling homework and completing quests, Ji-Han must learn how to navigate his newfound power in order to level up in life.\n\n(Source: WEBTOONS)",
+        "release_date": "2013-09-09",
+        "total_chapters": 510,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/10263dc2-dd53-4099-bf57-cad6c4acc14b/14b25cf2-d9c2-4173-af48-d6c9c7cbd144.jpg",
+        "author": "Konsonan",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "10263dc2-dd53-4099-bf57-cad6c4acc14b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:29:28.343Z"
+    },
+    {
+        "title": "Dungeon Reset",
+        "original_title": "던전 리셋",
+        "description": "Da-Woon's ordinary life is turned upside down when he is summoned into the Dungeon, where he must play a deadly game, outlasting dangerous monsters and life-threatening traps. To make matters worse, he's only a mere crafter with zero combat abilities. But after Da-Woon falls into a trap and survives after a glitched reset, he's gained random but oddly helpful skills. He'll need to get creative to clear the game and return home, with a bloodthirsty assistant and an adorable ground squirrel along for the ride. Now that the rules no longer apply to him, what possibilities await in the tunnels below?\n\n(Source: Tappytoon)",
+        "release_date": "2020-03-03",
+        "total_chapters": 266,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/dcdcc8c7-932e-4f60-a900-5f19934eb6cf/7bf49bfe-3a7c-4619-91ac-f23f51432131.png",
+        "author": "Ant Studio (앤트스튜디오)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "dcdcc8c7-932e-4f60-a900-5f19934eb6cf",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:29:33.711Z"
+    },
+    {
+        "title": "Sound of Magic",
+        "original_title": "안나라수마나라",
+        "description": "Yun Ai wanted to be a magician when she was little. But now in reality, she is a high school student who cannot even afford new stockings. Since the day she met a real magician at a fair, she desperately wants to follow her dream.\n\n(Source: WEBTOONS)\n\nNote: Includes the prologue.",
+        "release_date": "2010-07-28",
+        "total_chapters": 28,
+        "total_seasons": 3,
+        "cover_url": "https://uploads.mangadex.org/covers/0ea0abe6-2aad-4aae-8462-9c6caf266653/fcf468df-3ee8-4fc8-ac4a-154613fef786.jpg",
+        "author": "Ha Il-Kwon",
+        "genres": [
+            "Drama",
+            "Psychological",
+            "Slice of Life",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "0ea0abe6-2aad-4aae-8462-9c6caf266653",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:29:38.922Z"
+    },
+    {
+        "title": "Your Throne",
+        "original_title": "하루만 네가 되고 싶어",
+        "description": "Tensions are brewing under the seemingly calm surface of the Vasilios Empire, a kingdom ruled by the Imperial Family and the Temple. Lady Medea Solon has lost her place next to Crown Prince Eros, but resolves to do whatever it will take to win back what's rightfully hers. Will she reclaim her throne?\n\n(Source: WEBTOON)",
+        "release_date": "2020-01-06",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/8c6e0eb8-fb94-44a3-9bf4-fa72dee36775/0c04d507-5603-407e-9fc5-ff9b55461c37.jpg",
+        "author": "Sam (삼)",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance",
+            "Thriller"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "8c6e0eb8-fb94-44a3-9bf4-fa72dee36775",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:29:44.014Z"
+    },
+    {
+        "title": "The Extra’s Academy Survival Guide",
+        "original_title": "아카데미에서 살아남기",
+        "description": "Ed Rothstaylor is a third-rate villain in a game, disowned by his family and kicked out of the dormitory for his misdeeds. One day, our main character wakes up as this very Ed, and realizes he must earn a scholarship so he can graduate and be set for life. Now living in the woods, he resolves to keep away from the protagonists, but four of the female leads just won't leave him alone. Not only that, his presence starts to change the timeline and events of the game! Can Ed help the story progress while staying out of the limelight?\n\n(Source: WEBTOON)",
+        "release_date": "2023-12-28",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/7f15e45c-b7fd-4164-8d8e-ede14a817f0d/71670fb9-4950-4bda-89a9-7934737f77df.jpg",
+        "author": "Korita (코리타) ",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "7f15e45c-b7fd-4164-8d8e-ede14a817f0d",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:29:49.675Z"
+    },
+    {
+        "title": "How to Use a Returner",
+        "original_title": "회귀자 사용설명서",
+        "description": "[Will you join the game?] Giyoung's suddenly thrown into a game of life and death. Not only that but he's also the player with the lowest stats. Still, he's got one skill on his side: the ability to read other players' status! He finds the opportunity of his life when he discovers that Hyunsung is a returner to this world. Now all Giyoung has to do is stick next to Hyunsung and game his way out of this tutorial.\n\n(Source: Tapas)",
+        "release_date": "2021-10-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/bd1bf883-c7d4-4f4d-857c-29e2470cb693/299339d0-7717-429e-b137-84a222d9103b.jpg",
+        "author": "Heulgsujeo",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "bd1bf883-c7d4-4f4d-857c-29e2470cb693",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:29:54.897Z"
+    },
+    {
+        "title": "The Villainess Turns the Hourglass",
+        "original_title": "악녀는 모래시계를 되돌린다",
+        "description": "Aria Roscent mercilessly bullied her stepsister Mielle and paid the ultimate price for her misdeeds—but not before Mielle revealed that she’d manipulated Aria into harassing Mielle in the first place! Instead of dying, Aria is sent back in time and gifted a strange hourglass with mysterious powers. Now, Aria’s just got one goal: to embrace her role of villainess and utterly destroy Mielle’s life!\n\n(Source: Yen Press)",
+        "release_date": "2020-03-01",
+        "total_chapters": 125,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/73bc69fa-9ba9-4533-a243-ebc11651339f/5bd5b399-bfae-492b-a322-a4085b8cafd2.jpg",
+        "author": "Sansobee (산소비)",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Psychological",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "73bc69fa-9ba9-4533-a243-ebc11651339f",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:30:00.351Z"
+    },
+    {
+        "title": "Log-in Murim",
+        "original_title": "로그인 무림",
+        "description": "When an interdimensional portal appeared and released countless monsters across the world, humanity didn’t take the threat lying down. Mankind fought back, defeating the monsters' Demon King and creating a new way of life as \"hunters.\" But when Taekyung Jin, a struggling, low-ranked hunter, accidentally logs into a game on a beat-up VR console, he finds himself trapped in an all-new world, unable to log out.\n\n(Source: Tapas)",
+        "release_date": "2020-05-01",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/246f2c0c-4c50-4ef4-b292-c17f0f68a17c/e56bc7d5-115c-4c47-8846-c356d3d33217.jpg",
+        "author": "ZeRo Big (제로빅)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "246f2c0c-4c50-4ef4-b292-c17f0f68a17c",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:05.470Z"
+    },
+    {
+        "title": "Shotgun Boy",
+        "original_title": "엽총소년",
+        "description": "While running for his life in the woods, bullying victim Gyu-Hwan stumbles upon a shotgun and just enough shells for his classmates. It’s a recipe for disaster. But fate takes an unexpected turn when he returns to find his classmates under attack by brain-eating creatures. Now, the only thing that stands in the way of their ravenous feast is a boy with a shotgun.\n\n(Source: WEBTOON)\n\nNote: Includes two extra chapters.",
+        "release_date": "2021-02-22",
+        "total_chapters": 69,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/e8c8bc87-0b71-4893-9940-3fbd4bfd386b/5c82cfae-2f5d-4b15-91ce-72d79ef0b7a0.jpg",
+        "author": "Carnby Kim (김칸비)",
+        "genres": [
+            "Action",
+            "Horror",
+            "Psychological",
+            "Supernatural",
+            "Thriller"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "e8c8bc87-0b71-4893-9940-3fbd4bfd386b",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:30:10.676Z"
+    },
+    {
+        "title": "Weak Hero",
+        "original_title": "약한영웅",
+        "description": "Once the bullies target you, it’s game over. The school is run by tyrants whose favorite hobby is tormenting the weakest kids in class. But then Gray arrived. This mysterious new student threatens to dismantle the established order. He may be small in stature, but his calculative and brutal fighting leaves unsuspecting opponents lying on the floor begging for mercy. Now the school's toughest bullies have to scramble to take down this new and unusual hero.\n\n(Source: WEBTOON)",
+        "release_date": "2018-05-05",
+        "total_chapters": 268,
+        "total_seasons": 19,
+        "cover_url": "https://uploads.mangadex.org/covers/94a87fd5-250d-4058-9d33-88b6885ebfc2/9bdfad9a-53b7-46a7-9d8d-4b68aa9a212f.jpg",
+        "author": "SEOPASS (서패스)",
+        "genres": [
+            "Action",
+            "Drama"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "94a87fd5-250d-4058-9d33-88b6885ebfc2",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:30:15.779Z"
+    },
+    {
+        "title": "Villain to Kill",
+        "original_title": "빌런투킬",
+        "description": "There are two kinds of people with special abilities: villains, who are driven by their evil desires, and psykers, who pursue justice and work against villains. Cassian Lee is a very powerful psyker with a good heart. But one day, when he visits his friend in Greece, things take a wrong turn. Following an unexpected chain of events, Cassian ends up in the body of a Korean high school boy... who has just become a villain! Will his sense of justice win in the end or will he end up becoming a cold-blooded villain? \n\n(Source: WEBTOON)",
+        "release_date": "2021-02-15",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/94e6f5a4-a215-4f5b-ae82-febc560be66d/9910ea6e-11ae-41e9-b143-3219603ed44f.png",
+        "author": "Pupin",
+        "genres": [
+            "Action",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "94e6f5a4-a215-4f5b-ae82-febc560be66d",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:20.906Z"
+    },
+    {
+        "title": "Jungle Juice",
+        "original_title": "정글쥬스",
+        "description": "Su-Chan Jang is an extraordinary college student at the top of the social food chain. But underneath the perfect facade, he hides a pair of insect wings that suddenly grew when he used a mysterious bug spray called \"Jungle Juice.” Su-Chan's life crumbles when he bares his wings to the world to save someone's life. When all hope seems lost, Su-Chan stumbles upon a hidden world of insect humans where everyone is accepted for what they are. But the law of the jungle governs this secret society and all must fend for themselves in order to survive.\n\n(Source: WEBTOON, edited)",
+        "release_date": "2020-12-30",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/80d288be-bdb9-4637-804e-02b2f89ad2d8/c0d3d0a0-9550-4afd-b593-141e12a39015.jpg",
+        "author": "Youn In-Wan",
+        "genres": [
+            "Action",
+            "Fantasy",
+            "Sci-Fi",
+            "Supernatural",
+            "Thriller"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "80d288be-bdb9-4637-804e-02b2f89ad2d8",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:26.307Z"
+    },
+    {
+        "title": "The Reaper",
+        "original_title": "사신표월",
+        "description": "Pyo-Wol was an orphan who wandered around the continent until he bumped into a mysterious man and lost consciousness. When he wakes up, he finds himself in a dark, confined space with only one iron door for an exit. Wol survives the next several grueling months, trying to keep a cool head and stay in shape. When the iron door finally opens, he discovers he's not the only one in this miserable situation. A group of masked people has kidnapped 300 children to train them into human weapons. Wol must fight and kill the others, for only a handful of the strongest will be selected. Will Wol be able to become one of the chosen and find a way to free himself from his captors?\n\n(Source: Tappytoon, edited)",
+        "release_date": "2022-07-15",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/32156657-0ea8-48a3-81fe-a29bb1f90219/96652862-746a-4a01-9a25-abd0010b73f1.jpg",
+        "author": "Mok-In (목인)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "32156657-0ea8-48a3-81fe-a29bb1f90219",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:33.354Z"
+    },
+    {
+        "title": "The Stellar Swordmaster",
+        "original_title": "별을 품은 소드마스터",
+        "description": "The so-called “Lighthouse of the North,” the prosperous trading town of Schoarra, hides a dark underbelly: seedy slums ruled by five ruthless crime bosses. When streetwise orphan Vlad finds the brothel he works for decimated by a disgraced knight, he turns to the path of the blade, pledging himself to the pursuit of power by sword. Blessed with the ability to seek wisdom from his sentient sword, Vlad embarks upon a journey of growth and peril as swordsman in service to the powerful House Vayezid.\n\n(Source: WEBTOON)",
+        "release_date": "2023-09-19",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/abe0bb3b-a05e-4602-aa4f-578e0b962cf9/79b55c2b-0fb4-4569-8c48-aa1e1ff97eb7.jpg",
+        "author": "Hong Dae Eui (홍대의)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "abe0bb3b-a05e-4602-aa4f-578e0b962cf9",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:38.516Z"
+    },
+    {
+        "title": "The Academy's Undercover Professor",
+        "original_title": "아카데미에 위장취업당했다",
+        "description": "Machiavelli and Gerrard are just one of the many names the new professor of Ceoren Academy uses to disguise his identity, and now he can add one more to his list, Professor Ludger Cherish. The real Ludger Cherish dies on board a train during a terrorist attack, making him the perfect target for a new identity. Little does the new professor know, Ludger Cherish was involved in something deep and secret. The new Professor Ludger has to be careful to not get caught by the school and the dangerous secret society.\n\n(Source: WEBTOON)",
+        "release_date": "2022-06-04",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/d5c0896a-d4d5-4ee0-8bf1-a113cb1b86ac/136c7a9d-e081-46c8-9a7a-962c6b600a42.jpg",
+        "author": "Tana (타나)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "d5c0896a-d4d5-4ee0-8bf1-a113cb1b86ac",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:44.049Z"
+    },
+    {
+        "title": "The Remarried Empress",
+        "original_title": "재혼 황후",
+        "description": "Navier Ellie Trovi was an empress perfect in every way -- intelligent, courageous, and socially adept. She was kind to her subjects and devoted to her husband. Navier was perfectly content to live the rest of her days as the wise empress of the Eastern Empire. That is, until her husband brought home a mistress and demanded a divorce. “I accept this divorce… And I request an approval of my remarriage.” In a shocking twist, Navier remarries another emperor and retains her title and childhood dream as empress. But just how did everything unfold?\n\n(Source: WEBTOON)",
+        "release_date": "2019-10-24",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/ac6819d8-de35-442c-82dd-3444983d4f26/6fadbf8b-1be6-4c37-9a57-4e03721674f3.png",
+        "author": "HereLee",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "ac6819d8-de35-442c-82dd-3444983d4f26",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:49.579Z"
+    },
+    {
+        "title": "Roxana",
+        "original_title": "여주인공의 오빠를 지키는 방법",
+        "description": "Kidnapping, murder, and risqué relationships! Within the scandalous pages of The Abysmal Flower, the downfall of Roxana Agrece's criminal family is already foretold. So when Cassis Pedelian, the heroine's older brother, is kidnapped by Roxana's father, she can either wait for the heroine's revenge... or take matters into her own hands, since Cassis is the key to her survival. But with deceitful characters on all sides, can Roxana and Cassis trust each other enough to bring down the brutal Agreces?\n\n(Source: Tapas)",
+        "release_date": "2021-01-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/efebd0bc-eb88-477c-bcc3-90413395a2a3/6ad2b495-e945-4498-a930-fe59ed46c2c5.jpg",
+        "author": "Kin",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Psychological",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "efebd0bc-eb88-477c-bcc3-90413395a2a3",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:30:54.710Z"
+    },
+    {
+        "title": "I Am the Sorcerer King",
+        "original_title": "나는 마도왕이다",
+        "description": "Sung-Hoon Lee is nothing but a victim of a changing world, a powerless man in a land infested with beasts and magic. Monsters from another world invaded earth, and they brought with them a sickness that pushes Sung-Hoon’s mother into an endless sleep. To pay off her medical bills, he braved a dangerous job as bait used by powerful superhumans called Awakeners to hunt monsters. But when he found himself at death’s door, the image of his past life flashes through his mind. There, he found his truth: he is the reincarnation of the Sorcerer King!\n\n(Source: Tapas, edited)",
+        "release_date": "2019-05-31",
+        "total_chapters": 143,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/5ed2558b-66e8-4413-aff8-0ff317f9f1d0/a7adcfdc-a374-4b96-baf0-fee44ba5121b.jpg",
+        "author": "데카스펠",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "5ed2558b-66e8-4413-aff8-0ff317f9f1d0",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:31:00.023Z"
+    },
+    {
+        "title": "The Reborn Young Lord is an Assassin",
+        "original_title": "회귀한 공작가의 막내도련님은 암살자",
+        "description": "Cyan Vert, illegitimate son of the Duke and the empire's greatest assassin, is betrayed by the righteous brother whose shadow he's always lived in. But just before the fatal blow strikes his throat, Cyan awakes to find he's just a boy again. The young lord has been reborn, and this time, he's not going to live in anyone's shadow!\n\n(Source: WEBTOON)",
+        "release_date": "2024-02-25",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/49c09cc3-6e2d-458f-9a54-7fa5ecae1f6f/24de45c4-b14e-48d7-b415-9c2cbef6fe2f.jpg",
+        "author": "Swing Bat (스윙뱃)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "49c09cc3-6e2d-458f-9a54-7fa5ecae1f6f",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:05.201Z"
+    },
+    {
+        "title": "Return to Player",
+        "original_title": "리턴 투 플레이어",
+        "description": "Ten years ago, a group of gods turned everyone on Earth into players of a sadistic game that forced them to kill monsters in real life -- or be killed themselves. Sehan Kim has already seen how this game will play out: everyone in the world dies except for him. When he’s given the chance to go back in time and start a second playthrough, Sehan is determined to change the course of events and beat the gods at their own game.\n\n(Source: WEBTOON)",
+        "release_date": "2020-08-23",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/cac1a74c-0b5f-498a-8472-05f0636e1b4d/8872d5aa-3c69-4c91-9587-1902e9a3c7dd.jpg",
+        "author": "INDEX (인덱스)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "cac1a74c-0b5f-498a-8472-05f0636e1b4d",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:10.469Z"
+    },
+    {
+        "title": "My S-Class Hunters",
+        "original_title": "내가 키운 S급들",
+        "description": "Yu-Jin is an F-ranker overshadowed by his little brother, an S-ranker. All he does is get in his brother’s way, causing trouble wherever he goes. When a seemingly routine dungeon raid goes wrong and costs Yu-Jin his brother’s life, Yu-Jin decides to use the wish granted by clearing the dungeon to reset his timeline. The plan was to lead a quiet life from now on… but now it turns out he can help other people become S-rankers?! Maybe this is Yu-Jin's chance at building his own entourage of powerful metahumans… but it may be easier said than done.\n\n(Source: WEBTOON, edited)",
+        "release_date": "2021-11-15",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/6e243b67-5efa-4f2f-9b93-d14d030bfc69/e7c98433-d46e-43d8-9b16-04bd674e29c1.jpg",
+        "author": "Ji Sowoon",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "6e243b67-5efa-4f2f-9b93-d14d030bfc69",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:15.613Z"
+    },
+    {
+        "title": "Her Summon",
+        "original_title": "그녀의 소환수",
+        "description": "Due to a misuse of a word joke on live TV broadcast, girl group otaku, 'Jin-Kyung' ended up becoming doxxed and labeled as a \"child predator\", and ended up getting Social Anxiety Disorder. 3 years later, because of his past incident from the 3D world, his love for only the 2D world manifested, and ended up becoming a \"Shut-In Otaku\"! Then one day, as Jin-Kyung was no-lifing as usual, he was summoned to ‘Another World’, and came face-to-face with a bright-eyed, hopeful Summoner… Interesting enough, in the world that Jin-Kyung was summoned to, his Social Anxiety Disorder disappeared, and he was also able to wield immense power, and became the strongest summoned being there ever was!! The story of a former girl group otaku turned powerful 2D otaku, and the story of a weak and feeble Summoner commences now!!!\n\n(Source: Toomics)\n\nNotes: \n\n- Chapter count includes a prologue. \n\n- The official English translation is 117 chapters as Toomics English platform tends to split chapters. Our total chapter count follows the Korean release.",
+        "release_date": "2018-03-05",
+        "total_chapters": 62,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/27b5a8ba-818c-413f-9b50-ef74e4cbf62c/20a0b289-c4f6-4229-b064-7391a84c3299.jpg",
+        "author": "Park Jin-Joon (박진준)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy",
+            "Mystery"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "27b5a8ba-818c-413f-9b50-ef74e4cbf62c",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:31:20.735Z"
+    },
+    {
+        "title": "Doctor Elise: The Royal Lady with the Lamp",
+        "original_title": "외과의사 엘리제",
+        "description": "Jihyun is a master surgeon at the peak of her medical prowess. She’s made it her life’s mission to save lives in order to atone for the sins of her past life, but her dreams are cut short when her plane crashes in the middle of the Pacific. When Jihyun wakes up, she finds herself back in her first life as Elise de Clarence - the haughty nightmare of a girl who brought on her own tragic end. The new Elise, however, still has time to set things straight - with her newfound medical knowledge, the reformed Elise sets out to right the wrongs of her tragic first life!\n\n(Source: Lezhin US)\n\nNote: Chapter count includes 13 side stories.",
+        "release_date": "2017-09-18",
+        "total_chapters": 156,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/8368162b-a57e-4374-877a-926d42c683df/91214ee4-1cee-452a-bcd9-c4a2695efcd0.jpg",
+        "author": "Yuin",
+        "genres": [
+            "Comedy",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "8368162b-a57e-4374-877a-926d42c683df",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:31:26.181Z"
+    },
+    {
+        "title": "The Legendary Spearman Returns",
+        "original_title": "역대급 창기사의 회귀",
+        "description": "Joshua Sanders, the legendary spearman who ended the brutal civil war, shattered the belief that one must wield a sword to be a master knight. He fought in the service of his friend, Emperor Caesar Van Briton, but it is all for naught when his fearful comrades try to kill him. He’s on the brink of death when his trusty weapon, Lukia, shines and propels him back to the stables of his childhood. With his mighty spear in hand, Joshua is dead set on revenge in this life!\n\n(Source: Tapas)",
+        "release_date": "2021-10-02",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/707a112b-55cb-41a5-afe1-601d3e52e9a8/01a1ab5b-985e-402f-9e44-0b5ec9eae1f9.png",
+        "author": "Jo Husang (조후상)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "707a112b-55cb-41a5-afe1-601d3e52e9a8",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:31.579Z"
+    },
+    {
+        "title": "Leviathan",
+        "original_title": "심해수",
+        "description": "The world is submerged, and sea monsters rule the earth. Will Bota and his family ever make it to safety and escape this aquatic hell? And who in the world is Kana?!\n\n(Source: Toomics)\n\nNotes:\n\n- Includes six extra chapters.\n\n- Originally published on Toomics where chapters 1-3 were subsequently combined to form chapters 1-2 on Naver.",
+        "release_date": "2018-03-12",
+        "total_chapters": 115,
+        "total_seasons": 9,
+        "cover_url": "https://uploads.mangadex.org/covers/274a8e39-71a8-4bd2-af19-4572518fe44f/272c092f-3933-4ab8-92e4-6a61606178bf.png",
+        "author": "Lee Gyuntak (이경탁)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "274a8e39-71a8-4bd2-af19-4572518fe44f",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:31:37.196Z"
+    },
+    {
+        "title": "Seasons of Blossom",
+        "original_title": "청춘 블라썸",
+        "description": "Oh, to be young and in love. Oh, to be wild and carefree. The springtime of life is intense, tumultuous, and at times, oh so confusing. Spring, summer, fall and winter -- love blossoms in all seasons.\n\n(Source: WEBTOON)",
+        "release_date": "2020-06-26",
+        "total_chapters": 130,
+        "total_seasons": 12,
+        "cover_url": "https://uploads.mangadex.org/covers/67e56a7a-c7ea-4db8-84f0-db19c2034729/86f85502-4640-4947-b740-69a2149c2eb3.jpg",
+        "author": "HongDuck (홍덕)",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "67e56a7a-c7ea-4db8-84f0-db19c2034729",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:31:42.419Z"
+    },
+    {
+        "title": "The Legendary Moonlight Sculptor",
+        "original_title": "달빛조각사",
+        "description": "Hyeon’s what some may call resourceful, thrifty, or, um, stingy. Whatever you call him, he’s also dedicated—he grinded night-and-day to get a top-tier character. But once he sold it, every last cent was taken away by loan sharks. In the new VR MMO Royal Road, he’s committed to making it big for himself and his family. He knows that he should absolutely NEVER be one of those weak and poor sculptors, so what’s he going to do when he accidentally becomes the Legendary Moonlight Sculptor?\n\n(Source: Tapas, edited)",
+        "release_date": "2015-02-16",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/1f5ade21-96a2-48a3-92e4-a8cac0c655e7/d4470ad3-61da-45bc-9084-97ccda2fe746.jpg",
+        "author": "Lee Do-Kyung (이도경)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "1f5ade21-96a2-48a3-92e4-a8cac0c655e7",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:47.593Z"
+    },
+    {
+        "title": "The 100th Regression of the Max-Level Player",
+        "original_title": "만렙 플레이어의 100번째 회귀",
+        "description": "The world was embroiled in a death game involving individuals from ages 15 to 29. Thrown into a game devoid of empathy and compassion, Min Ryu had no choice but to fight for his survival. For the 99th time, he finally made it to the end of the game. Standing alone in front of the final boss’s chamber, Min Ryu was greeted with betrayal as the system killed him for not having four more players with him. On his 100th and final attempt, can Min Ryu find the help he needs to end this ruthless game?\n\n(Source: Tapas)",
+        "release_date": "2023-10-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/64127f6d-4c79-4dd5-b8e0-de46b0c8916e/b51ce066-6349-43a6-a163-d9ecaa5775ac.jpg",
+        "author": "King Soda (킹소다)",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Supernatural"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "64127f6d-4c79-4dd5-b8e0-de46b0c8916e",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:31:52.782Z"
+    },
+    {
+        "title": "Positively Yours",
+        "original_title": "아기가 생겼어요",
+        "description": "To Hui-Won’s dismay, the BFF she crushed on and her other BFF are now dating! Seriously bummed, Hui-Won decides to go wild just one time, and find solace with a handsome stranger. A very satisfying one night affair has now turned into more — she’s pregnant! Fate brings them together again, and now the regimented Du-Jun is determined to do the right thing and marry her. But they’re basically strangers! Except... their bodies have been very intimately acquainted. What’s this mother-to-be to do? \n\n(Source: Tapas, edited)\n\nNote: Includes 10 extra chapters.",
+        "release_date": "2020-06-08",
+        "total_chapters": 82,
+        "total_seasons": 8,
+        "cover_url": "https://uploads.mangadex.org/covers/40da1219-1860-4d7f-b823-d3511ac67cac/2e5569b8-76c4-401f-a59d-e2aa37ff6d1c.jpg",
+        "author": "Lee Jung",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance",
+            "Slice of Life"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "40da1219-1860-4d7f-b823-d3511ac67cac",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:32:03.225Z"
+    },
+    {
+        "title": "How to Win My Husband Over",
+        "original_title": "남편을 내 편으로 만드는 방법",
+        "description": "I thought I’d finally escaped my hellish life when I died in an airplane crash, but I fell into another nightmare when I awoke as Rudbeckia de Borgia, a minor villain from a historical novel destined to die at the hands of her husband, Iske van Omerta. Surviving with the dysfunctional Borgia family is hard enough, but now I have to marry the man who will kill me! Still, it’s okay, I just have to convince Iske, his family, and all his countrymen that I’m completely harmless! How hard can that be?\n\n(Source: Tapas)",
+        "release_date": "2021-10-21",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/cf69e2fd-9833-4f89-9cad-f470a280a256/c5d4802f-4fde-4e00-94cd-28e1cc9ec6f9.jpg",
+        "author": "Kitty&Spice (냥이와 향신료)",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "cf69e2fd-9833-4f89-9cad-f470a280a256",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:32:08.376Z"
+    },
+    {
+        "title": "A Stepmother’s Märchen",
+        "original_title": "어떤 계모님의 메르헨",
+        "description": "The marchioness Shuri Von Neuschwanstein is no stranger to hardship: her husband dies when she’s still a teenager, leaving her to manage his lands and raise his semi-grown children herself. Her stepchildren never warm up to her, and other nobles disparage her behind her back. Years later, however, it seems her efforts have finally paid off: her eldest stepson is to be married and take over the estate, freeing her of many responsibilities. But shortly after learning the cruel truth that she’s not invited to his wedding, she dies and wakes up on the day of her husband’s funeral seven years earlier! If Shuri is to live these seven difficult years all over again, she’s going to do things differently. Can she write her own fairy tale ending this time around?\n\n(Source: Seven Seas Entertainment)",
+        "release_date": "2019-07-04",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/73886188-f459-4b80-8781-66a60520b420/db527646-032f-40e6-8a17-6fc76fba7c45.png",
+        "author": "Kitty&Spice (냥이와 향신료)",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "73886188-f459-4b80-8781-66a60520b420",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:32:14.075Z"
+    },
+    {
+        "title": "Descended from Divinity",
+        "original_title": "천마는 평범하게 살 수 없다",
+        "description": "“Is this a mission I was sent on by the gods? Or is this just divine punishment?”\n\nJung-Hyeok Baek, divine demon overlord of Murim, finds that he’s been reincarnated into the body of Roman Dimitri, the dim-witted son of a baron who’s obsessed with the luxuries of the aristocratic lifestyle. But with his new status, Jung-Hyeok is ready to shake things up on the continent of Salamander. Will the divine demon accomplish what he’s set out to do? And will he finally get the answers to this mysterious reincarnation?\n\n(Source: WEBTOON, edited)",
+        "release_date": "2021-06-14",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/9debf709-4d0a-47f8-aa1a-b656bcd54727/91ef0b82-9755-4e0c-a9ec-0c7512c9c99d.jpg",
+        "author": "San Cheon (산천)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "9debf709-4d0a-47f8-aa1a-b656bcd54727",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:32:19.434Z"
+    },
+    {
+        "title": "The Martial God Who Regressed Back to Level 2",
+        "original_title": "2레벨로 회귀한 무신",
+        "description": "Earth lost the fight for survival in the BattleNet system and humanity now faces eradication. However, Jihan Seong is given another chance. He has returned three years into the past before BattleNet became a life-or-death game. With his knowledge of the future, he’s determined to become the strongest player. Will Jihan be able to change the fate of humanity? And more importantly, can he protect the ones he loves from those who want him to fail?\n\n(Source: Tapas)",
+        "release_date": "2023-07-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/8a1a79e4-7f90-450d-854c-0c780179f47f/1c5a58a5-ad5a-495e-a111-9eff4d4d1781.png",
+        "author": "Yeombi (염비)",
+        "genres": [
+            "Action",
+            "Fantasy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "8a1a79e4-7f90-450d-854c-0c780179f47f",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:32:25.094Z"
+    },
+    {
+        "title": "Study Group",
+        "original_title": "스터디그룹",
+        "description": "Nicknamed the “school for future criminals,” Yusung Technical High School isn’t exactly the ideal place to study. A rarity among his peers, Gamin is a student with just one goal: to get into university. At a school where it’s every man for himself, he is rejected from countless study groups before he decides to form his own. When Hankyeong, Gamin’s former tutor, joins his high school in hopes of earning her teacher certification, it seems like they’re both reaching for the impossible. Can they defeat the odds and achieve their dreams?\n\n(Source: WEBTOON)\n\nNote: Belongs to Blue String universe.",
+        "release_date": "2019-01-04",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/24c8e2f3-f515-4e58-bfdd-c423ab00499a/133f7d99-a535-43a3-b125-1783166766e6.jpg",
+        "author": "Hyungwuk Shin",
+        "genres": [
+            "Action",
+            "Comedy"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "24c8e2f3-f515-4e58-bfdd-c423ab00499a",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:32:30.286Z"
+    },
+    {
+        "title": "Under the Oak Tree",
+        "original_title": "상수리나무 아래",
+        "description": "A flawless love story of the flawed.\nStuttering lady Maximilian is forced into a marriage with Sir Riftan, but he leaves on a campaign after their wedding night. 3 years later, he triumphantly returns, ready to cherish her. As life with her husband finally begins, she only has one question — does she deserve this love and happiness?\n\n(Source: Manta)",
+        "release_date": "2020-08-31",
+        "total_chapters": null,
+        "total_seasons": null,
+        "cover_url": "https://uploads.mangadex.org/covers/c9a891f6-9f4b-487d-8b62-7abb0e3f59c8/9ea1571b-f680-494b-9a3c-04c1949bac27.jpg",
+        "author": "Namu",
+        "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+        ],
+        "source_name": "MangaDex",
+        "source_id": "c9a891f6-9f4b-487d-8b62-7abb0e3f59c8",
+        "status": "Ongoing",
+        "updated_at": "2025-12-03T14:32:35.555Z"
+    },
+    {
+        "title": "BJ Alex",
+        "original_title": "BJ 알렉스",
+        "description": "Every night at 10, Dong-Gyun locks himself up in his room, grabs a box of tissues, and watches a live cam boy show hosted by Alex, a BJ (broadcast jockey). Timid Dong-Gyun admires not only Alex’s ripped body, but his candor in sharing his sexual experiences with viewers. One night, Dong-Gyun downs too many drinks at a school networking event and passes out. When he wakes up, he’s in bed staring up at a shirtless hunk. A hunk who looks an awful lot like... Alex.\n\n(Source: Lezhin US)",
+        "release_date": "2017-11-24",
+        "total_chapters": 83,
+        "total_seasons": 9,
+        "cover_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx100885-fX0O5b7rzypf.jpg",
+        "author": "Mingwa",
+        "genres": [
+            "Romance"
+        ],
+        "source_name": "AniList",
+        "source_id": "100885",
+        "status": "Completed",
+        "updated_at": "2025-12-03T14:32:36.112Z"
+    }
 ]
