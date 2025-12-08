@@ -6,8 +6,7 @@ const app = express();
 const allowedOrigins = [
   'http://151.80.145.253:3000',
   'http://mezame.cloud-ip.cc',
-  'http://localhost:4000',
-  'http://localhost:3000'
+  'https://mezame.cloud-ip.cc'
 ];
 
 const corsOptions = {
