@@ -1,16 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const pool = require('../db'); 
+const pool = require('../db');
+const { resolveManhwaCandidates } = require('../lib/resolveManhwa');
 
 // get lasted manhwa added
 router.get('/latest', async (req, res) => {
   console.log('🔍 /latest endpoint hit!');
   console.log('Query params:', req.query);
-  
+
   try {
     const limit = Math.max(1, Math.min(100, parseInt(req.query.limit || '6', 10)));
     console.log('📊 Using limit:', limit);
-    
+
     const query = `
       SELECT *
       FROM manhwa
@@ -18,7 +19,7 @@ router.get('/latest', async (req, res) => {
       LIMIT ?
     `;
     const [rows] = await pool.query(query, [limit]);
-    
+
     console.log('✅ Found rows:', rows.length);
 
     res.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
@@ -58,12 +59,12 @@ router.get('/:id', async (req, res) => {
 // create a new manhwa, mainly work with the ../script/loadManhwa.js using which using a static json to work 
 router.post('/', async (req, res) => {
   try {
-    const { 
-      title, 
-      original_title, 
-      description, 
-      release_date, 
-      total_chapters, 
+    const {
+      title,
+      original_title,
+      description,
+      release_date,
+      total_chapters,
       total_seasons,
       cover_url
     } = req.body;
@@ -79,8 +80,8 @@ router.post('/', async (req, res) => {
       [title, original_title, description, release_date, total_chapters, total_seasons, cover_url]
     );
 
-    res.status(201).json({ 
-      ok: true, 
+    res.status(201).json({
+      ok: true,
       manhwa_id: result.insertId,
       message: 'Manhwa created successfully'
     });
@@ -94,14 +95,14 @@ router.post('/', async (req, res) => {
 // Plan to integrate it in the front
 router.put('/:id', async (req, res) => {
   try {
-    const { 
-      title, 
-      original_title, 
-      description, 
-      release_date, 
-      total_chapters, 
+    const {
+      title,
+      original_title,
+      description,
+      release_date,
+      total_chapters,
       total_seasons,
-      cover_url 
+      cover_url
     } = req.body;
 
     const [result] = await pool.query(
@@ -132,7 +133,7 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   try {
     const [result] = await pool.query('DELETE FROM manhwa WHERE manhwa_id = ?', [req.params.id]);
-    
+
     if (result.affectedRows === 0) {
       return res.status(404).json({ ok: false, error: 'Manhwa not found' });
     }
@@ -141,6 +142,24 @@ router.delete('/:id', async (req, res) => {
   } catch (err) {
     console.error('❌ DELETE /api/manhwa/:id error:', err);
     res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+// GET /api/manhwa/resolve?q=...
+// Retourne candidats fuzzy pour un titre
+
+router.get('/resolve', async (req, res) => {
+  try {
+    const q = (req.query.q || req.query.query || '').toString().trim();
+    if (!q) return res.status(400).json({ ok: false, error: 'Query parameter q is required' });
+
+    const candidates = await resolveManhwaCandidates(q, 50);
+    // map to lighter shape
+    const out = candidates.map(c => ({ manhwa_id: c.manhwa_id, title: c.title, original_title: c.original_title, score: c.score }));
+    return res.json({ ok: true, candidates: out });
+  } catch (err) {
+    console.error('GET /api/manhwa/resolve error', err);
+    return res.status(500).json({ ok: false, error: err.message });
   }
 });
 

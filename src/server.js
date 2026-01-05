@@ -63,6 +63,9 @@ try {
   const path = require('path');
   console.log('path for avatar loaded')
 
+  const checkpoints = require('./router/checkpoints');
+  console.log('checkpoints loaded');
+
   //#endregion
 
   //#region: use this router for all /api/manhwa routes
@@ -76,6 +79,7 @@ try {
   app.use('/api/user/lib', userLibraryRoutes);
   app.use('/api/user/library', userManhwaLibraryRoutes);
   app.use('/uploads/avatars', express.static(path.join(__dirname, 'uploads/avatars')));
+  app.use('/api/checkpoints', checkpoints);
 
   console.log('All routes mounted!');
   //#endregion
