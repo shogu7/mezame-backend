@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+// allowed ip to interact with the backend cause of the cors restriction 
 const allowedOrigins = [
   'http://151.80.145.253:3000',
   'http://mezame.cloud-ip.cc',
@@ -13,6 +14,7 @@ const allowedOrigins = [
   'chrome-extension://kjcaphpbgiambebkdagohihdjjifnlkm'
 ];
 
+// allow interact like 'GET', 'POST', 'PUT', ... 
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
