@@ -40,4 +40,4 @@ This backend also includes scripts to automate and manage the database efficient
 
 ## Deployment
 
-This backend works together with the frontend ([Mezame Frontend](https://mezame.cloud-ip.cc/)) to provide the full functionality of the app.
+This backend works together with the frontend Mezame Frontend to provide the full functionality of the app.
